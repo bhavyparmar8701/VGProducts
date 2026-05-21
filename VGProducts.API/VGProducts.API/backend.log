@@ -324,3 +324,761 @@ LIMIT 1
 2026-05-21 05:26:27.9645 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/wiki - - - 
 2026-05-21 05:26:27.9668 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/wiki - 404 0 - 2.3092ms 
 2026-05-21 05:26:27.9670 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/wiki, Response status code: 404 
+2026-05-21 06:34:30.6483 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/ - - - 
+2026-05-21 06:34:30.6597 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/ - 404 0 - 10.8061ms 
+2026-05-21 06:34:30.6609 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/, Response status code: 404 
+2026-05-21 06:34:32.5232 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/ - - - 
+2026-05-21 06:34:32.5241 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/ - 404 0 - 0.8218ms 
+2026-05-21 06:34:32.5241 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/, Response status code: 404 
+2026-05-21 06:34:33.1192 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/ - - - 
+2026-05-21 06:34:33.1200 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/ - 404 0 - 0.7892ms 
+2026-05-21 06:34:33.1200 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/, Response status code: 404 
+2026-05-21 06:34:57.2173 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api - - - 
+2026-05-21 06:34:57.2206 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api - 404 0 - 3.3881ms 
+2026-05-21 06:34:57.2213 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/api, Response status code: 404 
+2026-05-21 06:35:00.9529 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api - - - 
+2026-05-21 06:35:00.9529 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api - 404 0 - 0.9174ms 
+2026-05-21 06:35:00.9539 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/api, Response status code: 404 
+2026-05-21 06:35:07.9150 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger - - - 
+2026-05-21 06:35:07.9336 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger - 301 0 - 18.5391ms 
+2026-05-21 06:35:08.2395 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/index.html - - - 
+2026-05-21 06:35:08.3920 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/index.html - 200 - text/html;charset=utf-8 152.4334ms 
+2026-05-21 06:35:08.7152 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/index.css - - - 
+2026-05-21 06:35:08.7213 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/swagger-ui.css - - - 
+2026-05-21 06:35:08.7424 | Info | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2026-05-21 06:35:08.7424 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/index.css - 200 202 text/css 27.5356ms 
+2026-05-21 06:35:08.7562 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/swagger-ui-bundle.js - - - 
+2026-05-21 06:35:08.9951 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/swagger-ui-standalone-preset.js - - - 
+2026-05-21 06:35:09.0146 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/index.js - - - 
+2026-05-21 06:35:09.0153 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/index.js - 200 - application/javascript;charset=utf-8 0.6521ms 
+2026-05-21 06:35:09.0773 | Info | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2026-05-21 06:35:09.0773 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/swagger-ui.css - 200 154949 text/css 356.1427ms 
+2026-05-21 06:35:09.5871 | Info | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2026-05-21 06:35:09.5871 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 592.1413ms 
+2026-05-21 06:35:11.7498 | Info | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2026-05-21 06:35:11.7499 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/swagger-ui-bundle.js - 200 1485241 text/javascript 2993.8556ms 
+2026-05-21 06:35:14.0587 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/favicon-32x32.png - - - 
+2026-05-21 06:35:14.0592 | Info | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2026-05-21 06:35:14.0592 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/favicon-32x32.png - 200 628 image/png 0.5499ms 
+2026-05-21 06:35:14.0633 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/v1/swagger.json - - - 
+2026-05-21 06:35:14.3110 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 247.6512ms 
+2026-05-21 06:45:02.4328 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:45:02.4355 | Info | CORS policy execution successful. 
+2026-05-21 06:45:02.4370 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:45:02.4561 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:45:02.4561 | Info | CORS policy execution successful. 
+2026-05-21 06:45:02.4561 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:45:02.8641 | Info | Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 06:45:02.8651 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:45:02.8651 | Info | Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 06:45:02.8651 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:45:02.8662 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 410.1142ms 
+2026-05-21 06:45:02.8662 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 433.5183ms 
+2026-05-21 06:45:03.5885 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:45:03.5885 | Info | CORS policy execution successful. 
+2026-05-21 06:45:03.5891 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:45:03.5932 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 06:45:03.5932 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:45:03.5947 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:45:03.5952 | Info | CORS policy execution successful. 
+2026-05-21 06:45:03.5947 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 6.3199ms 
+2026-05-21 06:45:03.5952 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:45:03.5983 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 06:45:03.5983 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:45:03.5991 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 4.4090ms 
+2026-05-21 06:45:46.2802 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - - - 
+2026-05-21 06:45:46.2802 | Info | CORS policy execution successful. 
+2026-05-21 06:45:46.2802 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - 204 - - 0.6118ms 
+2026-05-21 06:45:46.5941 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/login - application/json 56 
+2026-05-21 06:45:46.5956 | Info | CORS policy execution successful. 
+2026-05-21 06:45:46.5956 | Info | Executing endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:45:46.6352 | Info | Executed DbCommand (27ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-05-21 06:45:46.6385 | Info | Setting HTTP status code 400. 
+2026-05-21 06:45:46.6393 | Info | Writing value of type 'AuthResponseDto' as Json. 
+2026-05-21 06:45:46.6393 | Info | Executed endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:45:46.6400 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/login - 400 - application/json;+charset=utf-8 45.9163ms 
+2026-05-21 06:45:52.4272 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - - - 
+2026-05-21 06:45:52.4272 | Info | CORS policy execution successful. 
+2026-05-21 06:45:52.4272 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - 204 - - 0.4003ms 
+2026-05-21 06:45:52.7412 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/login - application/json 55 
+2026-05-21 06:45:52.7412 | Info | CORS policy execution successful. 
+2026-05-21 06:45:52.7412 | Info | Executing endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:45:52.7487 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-05-21 06:45:52.7490 | Info | Setting HTTP status code 400. 
+2026-05-21 06:45:52.7499 | Info | Writing value of type 'AuthResponseDto' as Json. 
+2026-05-21 06:45:52.7499 | Info | Executed endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:45:52.7519 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/login - 400 - application/json;+charset=utf-8 9.6828ms 
+2026-05-21 06:45:55.9488 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/login - application/json 56 
+2026-05-21 06:45:55.9488 | Info | CORS policy execution successful. 
+2026-05-21 06:45:55.9488 | Info | Executing endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:45:55.9523 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-05-21 06:45:55.9538 | Info | Setting HTTP status code 400. 
+2026-05-21 06:45:55.9538 | Info | Writing value of type 'AuthResponseDto' as Json. 
+2026-05-21 06:45:55.9540 | Info | Executed endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:45:55.9540 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/login - 400 - application/json;+charset=utf-8 5.7101ms 
+2026-05-21 06:46:19.2252 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/register - - - 
+2026-05-21 06:46:19.2252 | Info | CORS policy execution successful. 
+2026-05-21 06:46:19.2252 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/register - 204 - - 0.5313ms 
+2026-05-21 06:46:19.5367 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/register - application/json 117 
+2026-05-21 06:46:19.5370 | Info | CORS policy execution successful. 
+2026-05-21 06:46:19.5370 | Info | Executing endpoint 'HTTP: POST /api/register => Register' 
+2026-05-21 06:46:19.5530 | Info | Setting HTTP status code 400. 
+2026-05-21 06:46:19.5546 | Info | Writing value of type '<>f__AnonymousType2`1' as Json. 
+2026-05-21 06:46:19.5551 | Info | Executed endpoint 'HTTP: POST /api/register => Register' 
+2026-05-21 06:46:19.5551 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/register - 400 - application/json;+charset=utf-8 18.8160ms 
+2026-05-21 06:46:27.6109 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/register - - - 
+2026-05-21 06:46:27.6109 | Info | CORS policy execution successful. 
+2026-05-21 06:46:27.6109 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/register - 204 - - 0.4469ms 
+2026-05-21 06:46:27.9245 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/register - application/json 121 
+2026-05-21 06:46:27.9245 | Info | CORS policy execution successful. 
+2026-05-21 06:46:27.9251 | Info | Executing endpoint 'HTTP: POST /api/register => Register' 
+2026-05-21 06:46:28.0470 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-05-21 06:46:28.1009 | Info | Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?', @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTime), @p12='?', @p13='?', @p14='?' (DbType = DateTime), @p15='?', @p16='?', @p17='?' (DbType = Boolean), @p18='?', @p19='?' (DbType = DateTime), @p20='?', @p21='?', @p22='?' (DbType = Boolean), @p23='?' (DbType = DateTime), @p24='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "CreatedAt", "Email", "EmailConfirmed", "FirstName", "IsDeleted", "IsOtpVerified", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "OtpExpiry", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiry", "ResetOtp", "SecurityStamp", "TwoFactorEnabled", "UpdatedAt", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24); 
+2026-05-21 06:46:28.1222 | Info | Executed DbCommand (5ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2 
+2026-05-21 06:46:28.1502 | Info | Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Guid), @__p_1='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."UserId", a."RoleId"
+FROM "AspNetUserRoles" AS a
+WHERE a."UserId" = @__p_0 AND a."RoleId" = @__p_1
+LIMIT 1 
+2026-05-21 06:46:28.1548 | Info | Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2 
+2026-05-21 06:46:28.1705 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-05-21 06:46:28.1982 | Info | Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p26='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?', @p27='?', @p4='?' (DbType = DateTime), @p5='?', @p6='?' (DbType = Boolean), @p7='?', @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?', @p11='?' (DbType = Boolean), @p12='?' (DbType = DateTime), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = DateTime), @p21='?', @p22='?', @p23='?' (DbType = Boolean), @p24='?' (DbType = DateTime), @p25='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUserRoles" ("RoleId", "UserId")
+VALUES (@p0, @p1);
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p2, "ConcurrencyStamp" = @p3, "CreatedAt" = @p4, "Email" = @p5, "EmailConfirmed" = @p6, "FirstName" = @p7, "IsDeleted" = @p8, "IsOtpVerified" = @p9, "LastName" = @p10, "LockoutEnabled" = @p11, "LockoutEnd" = @p12, "NormalizedEmail" = @p13, "NormalizedUserName" = @p14, "OtpExpiry" = @p15, "PasswordHash" = @p16, "PhoneNumber" = @p17, "PhoneNumberConfirmed" = @p18, "RefreshToken" = @p19, "RefreshTokenExpiry" = @p20, "ResetOtp" = @p21, "SecurityStamp" = @p22, "TwoFactorEnabled" = @p23, "UpdatedAt" = @p24, "UserName" = @p25
+WHERE "Id" = @p26 AND "ConcurrencyStamp" = @p27; 
+2026-05-21 06:46:28.2105 | Info | Setting HTTP status code 200. 
+2026-05-21 06:46:28.2105 | Info | Writing value of type '<>f__AnonymousType2`1' as Json. 
+2026-05-21 06:46:28.2105 | Info | Executed endpoint 'HTTP: POST /api/register => Register' 
+2026-05-21 06:46:28.2116 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/register - 200 - application/json;+charset=utf-8 287.0864ms 
+2026-05-21 06:46:38.7168 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - - - 
+2026-05-21 06:46:38.7168 | Info | CORS policy execution successful. 
+2026-05-21 06:46:38.7168 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - 204 - - 0.6218ms 
+2026-05-21 06:46:39.0430 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/login - application/json 56 
+2026-05-21 06:46:39.0430 | Info | CORS policy execution successful. 
+2026-05-21 06:46:39.0430 | Info | Executing endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:46:39.0471 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-05-21 06:46:39.1861 | Info | Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2026-05-21 06:46:39.1873 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-05-21 06:46:39.1921 | Info | Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-05-21 06:46:39.1982 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-05-21 06:46:39.2008 | Info | Executed DbCommand (1ms) [Parameters=[@p24='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?', @p25='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?', @p18='?' (DbType = DateTime), @p19='?', @p20='?', @p21='?' (DbType = Boolean), @p22='?' (DbType = DateTime), @p23='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "IsDeleted" = @p6, "IsOtpVerified" = @p7, "LastName" = @p8, "LockoutEnabled" = @p9, "LockoutEnd" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "OtpExpiry" = @p13, "PasswordHash" = @p14, "PhoneNumber" = @p15, "PhoneNumberConfirmed" = @p16, "RefreshToken" = @p17, "RefreshTokenExpiry" = @p18, "ResetOtp" = @p19, "SecurityStamp" = @p20, "TwoFactorEnabled" = @p21, "UpdatedAt" = @p22, "UserName" = @p23
+WHERE "Id" = @p24 AND "ConcurrencyStamp" = @p25; 
+2026-05-21 06:46:39.2026 | Info | Setting HTTP status code 200. 
+2026-05-21 06:46:39.2026 | Info | Writing value of type 'AuthResponseDto' as Json. 
+2026-05-21 06:46:39.2038 | Info | Executed endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:46:39.2043 | Info | Session started; Key:a7d7d6d7-9a78-4184-3613-df35bdee3722, Id:97e8626c-a158-49df-fb19-1c3e26c3fc02 
+2026-05-21 06:46:39.2102 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/login - 200 - application/json;+charset=utf-8 167.1998ms 
+2026-05-21 06:46:39.5458 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:46:39.5458 | Info | CORS policy execution successful. 
+2026-05-21 06:46:39.5458 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.3991ms 
+2026-05-21 06:46:39.5484 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:46:39.5484 | Info | CORS policy execution successful. 
+2026-05-21 06:46:39.5484 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.1306ms 
+2026-05-21 06:46:39.8485 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:46:39.8485 | Info | CORS policy execution successful. 
+2026-05-21 06:46:39.8485 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.3280ms 
+2026-05-21 06:46:39.8597 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:46:39.8597 | Info | CORS policy execution successful. 
+2026-05-21 06:46:39.8597 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.1966ms 
+2026-05-21 06:46:40.1544 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:46:40.1544 | Info | CORS policy execution successful. 
+2026-05-21 06:46:40.1664 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:46:40.1720 | Info | Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-21 06:46:40.1720 | Info | Setting HTTP status code 404. 
+2026-05-21 06:46:40.1720 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-21 06:46:40.1720 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:46:40.1720 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 404 - application/json;+charset=utf-8 18.4022ms 
+2026-05-21 06:46:40.4800 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:46:40.4800 | Info | CORS policy execution successful. 
+2026-05-21 06:46:40.4800 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:46:40.4824 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 06:46:40.4824 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:46:40.4832 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 3.2139ms 
+2026-05-21 06:46:40.4920 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:46:40.4920 | Info | CORS policy execution successful. 
+2026-05-21 06:46:40.4920 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.2669ms 
+2026-05-21 06:46:40.5186 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:46:40.5186 | Info | CORS policy execution successful. 
+2026-05-21 06:46:40.5186 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:46:40.5208 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 06:46:40.5211 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:46:40.5211 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 2.8331ms 
+2026-05-21 06:46:40.8224 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:46:40.8224 | Info | CORS policy execution successful. 
+2026-05-21 06:46:40.8234 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:46:40.8254 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-21 06:46:40.8254 | Info | Setting HTTP status code 404. 
+2026-05-21 06:46:40.8254 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-21 06:46:40.8254 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:46:40.8262 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 404 - application/json;+charset=utf-8 3.7889ms 
+2026-05-21 06:46:41.1645 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:46:41.1645 | Info | CORS policy execution successful. 
+2026-05-21 06:46:41.1653 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:46:41.1674 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-21 06:46:41.1674 | Info | Setting HTTP status code 200. 
+2026-05-21 06:46:41.1674 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-21 06:46:41.1674 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:46:41.1684 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 200 - application/json;+charset=utf-8 3.8277ms 
+2026-05-21 06:46:41.8384 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:46:41.8384 | Info | CORS policy execution successful. 
+2026-05-21 06:46:41.8393 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:46:41.8434 | Info | Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-21 06:46:41.8434 | Info | Setting HTTP status code 200. 
+2026-05-21 06:46:41.8440 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-21 06:46:41.8440 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:46:41.8460 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 200 - application/json;+charset=utf-8 7.5492ms 
+2026-05-21 06:47:04.1925 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:47:04.1925 | Info | CORS policy execution successful. 
+2026-05-21 06:47:04.1931 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.6174ms 
+2026-05-21 06:47:04.1972 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:47:04.1972 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:47:04.1972 | Info | CORS policy execution successful. 
+2026-05-21 06:47:04.1972 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.2754ms 
+2026-05-21 06:47:04.1972 | Info | CORS policy execution successful. 
+2026-05-21 06:47:04.1972 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.5851ms 
+2026-05-21 06:47:04.8401 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:47:04.8401 | Info | CORS policy execution successful. 
+2026-05-21 06:47:04.8401 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:47:04.8434 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 06:47:04.8434 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:47:04.8446 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 4.5194ms 
+2026-05-21 06:47:04.8537 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:47:04.8537 | Info | CORS policy execution successful. 
+2026-05-21 06:47:04.8544 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:47:04.8581 | Info | Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 06:47:04.8581 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:47:04.8581 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 5.0140ms 
+2026-05-21 06:47:04.8674 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:47:04.8674 | Info | CORS policy execution successful. 
+2026-05-21 06:47:04.8680 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:47:04.8716 | Info | Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-21 06:47:04.8716 | Info | Setting HTTP status code 404. 
+2026-05-21 06:47:04.8730 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-21 06:47:04.8730 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:47:04.8730 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 404 - application/json;+charset=utf-8 5.9832ms 
+2026-05-21 06:47:05.1965 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:47:05.1965 | Info | CORS policy execution successful. 
+2026-05-21 06:47:05.1965 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.3347ms 
+2026-05-21 06:47:05.6370 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:47:05.6370 | Info | CORS policy execution successful. 
+2026-05-21 06:47:05.6382 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:47:05.6397 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 06:47:05.6400 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:47:05.6400 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 3.3560ms 
+2026-05-21 06:47:05.6459 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:47:05.6459 | Info | CORS policy execution successful. 
+2026-05-21 06:47:05.6459 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:47:05.6475 | Info | Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 06:47:05.6475 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:47:05.6481 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 2.1697ms 
+2026-05-21 06:47:05.6557 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:47:05.6557 | Info | CORS policy execution successful. 
+2026-05-21 06:47:05.6557 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:47:05.6577 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-21 06:47:05.6577 | Info | Setting HTTP status code 404. 
+2026-05-21 06:47:05.6580 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-21 06:47:05.6580 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:47:05.6580 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 404 - application/json;+charset=utf-8 2.7086ms 
+2026-05-21 06:47:05.8688 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:47:05.8688 | Info | CORS policy execution successful. 
+2026-05-21 06:47:05.8688 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:47:05.8716 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-21 06:47:05.8719 | Info | Setting HTTP status code 200. 
+2026-05-21 06:47:05.8719 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-21 06:47:05.8719 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:47:05.8719 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 200 - application/json;+charset=utf-8 3.7777ms 
+2026-05-21 06:47:06.5435 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:47:06.5435 | Info | CORS policy execution successful. 
+2026-05-21 06:47:06.5435 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:47:06.5465 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-21 06:47:06.5465 | Info | Setting HTTP status code 200. 
+2026-05-21 06:47:06.5469 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-21 06:47:06.5469 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:47:06.5469 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 200 - application/json;+charset=utf-8 4.2969ms 
+2026-05-21 06:54:07.8430 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:07.8430 | Info | CORS policy execution successful. 
+2026-05-21 06:54:07.8430 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.3156ms 
+2026-05-21 06:54:07.8488 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:54:07.8488 | Info | CORS policy execution successful. 
+2026-05-21 06:54:07.8492 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.4268ms 
+2026-05-21 06:54:07.8657 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:54:07.8657 | Info | CORS policy execution successful. 
+2026-05-21 06:54:07.8659 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.2100ms 
+2026-05-21 06:54:07.8779 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:07.8779 | Info | CORS policy execution successful. 
+2026-05-21 06:54:07.8779 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.2106ms 
+2026-05-21 06:54:07.8857 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:54:07.8857 | Info | CORS policy execution successful. 
+2026-05-21 06:54:07.8857 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.1129ms 
+2026-05-21 06:54:07.9069 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:54:07.9069 | Info | CORS policy execution successful. 
+2026-05-21 06:54:07.9069 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.1613ms 
+2026-05-21 06:54:08.4523 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:08.4540 | Info | CORS policy execution successful. 
+2026-05-21 06:54:08.4540 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:08'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 06:54:08.4589 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:08'. 
+2026-05-21 06:54:08.4589 | Info | Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=Permission and Claim.Value is one of the following values: (ViewCartItem) 
+2026-05-21 06:54:08.4611 | Info | AuthenticationScheme: Bearer was challenged. 
+2026-05-21 06:54:08.4611 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 401 0 - 8.8256ms 
+2026-05-21 06:54:08.4753 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:54:08.4753 | Info | CORS policy execution successful. 
+2026-05-21 06:54:08.4759 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:08'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 06:54:08.4759 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:08'. 
+2026-05-21 06:54:08.4759 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:54:08.5103 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:54:08.5110 | Info | CORS policy execution successful. 
+2026-05-21 06:54:08.5110 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:08'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 06:54:08.5110 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:08'. 
+2026-05-21 06:54:08.5130 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:54:08.6277 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 06:54:08.6292 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:54:08.6307 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 06:54:08.6309 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:54:08.6309 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 121.1315ms 
+2026-05-21 06:54:08.6309 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 156.2310ms 
+2026-05-21 06:54:09.1430 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:09.1430 | Info | CORS policy execution successful. 
+2026-05-21 06:54:09.1430 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:09'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 06:54:09.1444 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:09'. 
+2026-05-21 06:54:09.1444 | Info | Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=Permission and Claim.Value is one of the following values: (ViewCartItem) 
+2026-05-21 06:54:09.1444 | Info | AuthenticationScheme: Bearer was challenged. 
+2026-05-21 06:54:09.1444 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 499 - - 1.8039ms 
+2026-05-21 06:54:09.2225 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:54:09.2225 | Info | CORS policy execution successful. 
+2026-05-21 06:54:09.2225 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:09'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 06:54:09.2225 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:09'. 
+2026-05-21 06:54:09.2240 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:54:09.2255 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 06:54:09.2278 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:54:09.2283 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 499 - application/json;+charset=utf-8 5.7886ms 
+2026-05-21 06:54:09.2343 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:54:09.2343 | Info | CORS policy execution successful. 
+2026-05-21 06:54:09.2343 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:09'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 06:54:09.2354 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:46:39', Current time (UTC): '05/21/2026 06:54:09'. 
+2026-05-21 06:54:09.2354 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:54:09.2368 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 06:54:09.2371 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:54:09.2371 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 499 - application/json;+charset=utf-8 3.1107ms 
+2026-05-21 06:54:13.3484 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - - - 
+2026-05-21 06:54:13.3484 | Info | CORS policy execution successful. 
+2026-05-21 06:54:13.3484 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - 204 - - 0.3254ms 
+2026-05-21 06:54:13.6354 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/login - application/json 56 
+2026-05-21 06:54:13.6354 | Info | CORS policy execution successful. 
+2026-05-21 06:54:13.6354 | Info | Executing endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:54:13.6400 | Info | Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-05-21 06:54:13.7564 | Info | Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2026-05-21 06:54:13.7575 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-05-21 06:54:13.7585 | Info | Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-05-21 06:54:13.7608 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-05-21 06:54:13.7646 | Info | Executed DbCommand (3ms) [Parameters=[@p24='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?', @p25='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?', @p18='?' (DbType = DateTime), @p19='?', @p20='?', @p21='?' (DbType = Boolean), @p22='?' (DbType = DateTime), @p23='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "IsDeleted" = @p6, "IsOtpVerified" = @p7, "LastName" = @p8, "LockoutEnabled" = @p9, "LockoutEnd" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "OtpExpiry" = @p13, "PasswordHash" = @p14, "PhoneNumber" = @p15, "PhoneNumberConfirmed" = @p16, "RefreshToken" = @p17, "RefreshTokenExpiry" = @p18, "ResetOtp" = @p19, "SecurityStamp" = @p20, "TwoFactorEnabled" = @p21, "UpdatedAt" = @p22, "UserName" = @p23
+WHERE "Id" = @p24 AND "ConcurrencyStamp" = @p25; 
+2026-05-21 06:54:13.7652 | Info | Setting HTTP status code 200. 
+2026-05-21 06:54:13.7652 | Info | Writing value of type 'AuthResponseDto' as Json. 
+2026-05-21 06:54:13.7652 | Info | Executed endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 06:54:13.7652 | Info | Session started; Key:bc16b4aa-a1af-9b98-3fce-190603ee2a43, Id:2e8df28c-3385-6f7f-d524-ebe0105294b8 
+2026-05-21 06:54:13.7662 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/login - 200 - application/json;+charset=utf-8 130.7855ms 
+2026-05-21 06:54:14.0640 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:14.0640 | Info | CORS policy execution successful. 
+2026-05-21 06:54:14.0640 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.3063ms 
+2026-05-21 06:54:14.0793 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:14.0793 | Info | CORS policy execution successful. 
+2026-05-21 06:54:14.0793 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.1653ms 
+2026-05-21 06:54:14.0812 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:54:14.0812 | Info | CORS policy execution successful. 
+2026-05-21 06:54:14.0812 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.1890ms 
+2026-05-21 06:54:14.3515 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:54:14.3515 | Info | CORS policy execution successful. 
+2026-05-21 06:54:14.3515 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.2522ms 
+2026-05-21 06:54:14.6361 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:14.6361 | Info | CORS policy execution successful. 
+2026-05-21 06:54:14.6370 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:54:14.6391 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-21 06:54:14.6391 | Info | Setting HTTP status code 404. 
+2026-05-21 06:54:14.6391 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-21 06:54:14.6391 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:54:14.6391 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 404 - application/json;+charset=utf-8 3.7110ms 
+2026-05-21 06:54:14.7373 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 06:54:14.7373 | Info | CORS policy execution successful. 
+2026-05-21 06:54:14.7381 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:54:14.7394 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 06:54:14.7394 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 06:54:14.7400 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 2.7014ms 
+2026-05-21 06:54:14.9504 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:14.9504 | Info | CORS policy execution successful. 
+2026-05-21 06:54:14.9504 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.3283ms 
+2026-05-21 06:54:14.9594 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 06:54:14.9594 | Info | CORS policy execution successful. 
+2026-05-21 06:54:14.9594 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:54:14.9614 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 06:54:14.9614 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 06:54:14.9621 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 2.6894ms 
+2026-05-21 06:54:15.2490 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:15.2490 | Info | CORS policy execution successful. 
+2026-05-21 06:54:15.2499 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:54:15.2517 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-21 06:54:15.2517 | Info | Setting HTTP status code 404. 
+2026-05-21 06:54:15.2519 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-21 06:54:15.2519 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 06:54:15.2519 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 404 - application/json;+charset=utf-8 3.4382ms 
+2026-05-21 06:54:15.6080 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:15.6080 | Info | CORS policy execution successful. 
+2026-05-21 06:54:15.6080 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:54:15.6106 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-21 06:54:15.6109 | Info | Setting HTTP status code 200. 
+2026-05-21 06:54:15.6109 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-21 06:54:15.6109 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:54:15.6109 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 200 - application/json;+charset=utf-8 3.5586ms 
+2026-05-21 06:54:16.2704 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 06:54:16.2704 | Info | CORS policy execution successful. 
+2026-05-21 06:54:16.2704 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:54:16.2741 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-21 06:54:16.2751 | Info | Setting HTTP status code 200. 
+2026-05-21 06:54:16.2751 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-21 06:54:16.2751 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 06:54:16.2751 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 200 - application/json;+charset=utf-8 5.1869ms 
+2026-05-21 07:13:31.9438 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:31.9475 | Info | CORS policy execution successful. 
+2026-05-21 07:13:31.9475 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 3.8275ms 
+2026-05-21 07:13:31.9500 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 07:13:31.9500 | Info | CORS policy execution successful. 
+2026-05-21 07:13:31.9500 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.1864ms 
+2026-05-21 07:13:31.9706 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 07:13:31.9706 | Info | CORS policy execution successful. 
+2026-05-21 07:13:31.9706 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.2795ms 
+2026-05-21 07:13:32.5720 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:32.5741 | Info | CORS policy execution successful. 
+2026-05-21 07:13:32.5801 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 07:13:32.5801 | Info | CORS policy execution successful. 
+2026-05-21 07:13:32.5816 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:54:13', Current time (UTC): '05/21/2026 07:13:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 07:13:32.5816 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:54:13', Current time (UTC): '05/21/2026 07:13:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 07:13:32.5936 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:54:13', Current time (UTC): '05/21/2026 07:13:32'. 
+2026-05-21 07:13:32.5941 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 07:13:32.5936 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:54:13', Current time (UTC): '05/21/2026 07:13:32'. 
+2026-05-21 07:13:32.5964 | Info | Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=Permission and Claim.Value is one of the following values: (ViewCartItem) 
+2026-05-21 07:13:32.5983 | Info | AuthenticationScheme: Bearer was challenged. 
+2026-05-21 07:13:32.5983 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 401 0 - 26.5084ms 
+2026-05-21 07:13:32.6294 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 07:13:32.6294 | Info | CORS policy execution successful. 
+2026-05-21 07:13:32.6294 | Info | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:54:13', Current time (UTC): '05/21/2026 07:13:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-05-21 07:13:32.6303 | Info | Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '05/21/2026 06:54:13', Current time (UTC): '05/21/2026 07:13:32'. 
+2026-05-21 07:13:32.6303 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 07:13:32.9121 | Info | Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 07:13:32.9121 | Info | Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 07:13:32.9152 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 07:13:32.9152 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 07:13:32.9152 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 335.6586ms 
+2026-05-21 07:13:32.9162 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 286.8447ms 
+2026-05-21 07:13:53.1737 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - - - 
+2026-05-21 07:13:53.1739 | Info | CORS policy execution successful. 
+2026-05-21 07:13:53.1739 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - 204 - - 0.3099ms 
+2026-05-21 07:13:53.4882 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/login - application/json 56 
+2026-05-21 07:13:53.4897 | Info | CORS policy execution successful. 
+2026-05-21 07:13:53.4899 | Info | Executing endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 07:13:53.5130 | Info | Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-05-21 07:13:53.6380 | Info | Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2026-05-21 07:13:53.6397 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-05-21 07:13:53.6409 | Info | Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-05-21 07:13:53.6446 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-05-21 07:13:53.6533 | Info | Executed DbCommand (4ms) [Parameters=[@p24='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?', @p25='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?', @p18='?' (DbType = DateTime), @p19='?', @p20='?', @p21='?' (DbType = Boolean), @p22='?' (DbType = DateTime), @p23='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "IsDeleted" = @p6, "IsOtpVerified" = @p7, "LastName" = @p8, "LockoutEnabled" = @p9, "LockoutEnd" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "OtpExpiry" = @p13, "PasswordHash" = @p14, "PhoneNumber" = @p15, "PhoneNumberConfirmed" = @p16, "RefreshToken" = @p17, "RefreshTokenExpiry" = @p18, "ResetOtp" = @p19, "SecurityStamp" = @p20, "TwoFactorEnabled" = @p21, "UpdatedAt" = @p22, "UserName" = @p23
+WHERE "Id" = @p24 AND "ConcurrencyStamp" = @p25; 
+2026-05-21 07:13:53.6596 | Info | Setting HTTP status code 200. 
+2026-05-21 07:13:53.6614 | Info | Writing value of type 'AuthResponseDto' as Json. 
+2026-05-21 07:13:53.6623 | Info | Executed endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-21 07:13:53.6632 | Info | Session started; Key:87046708-aa8f-9f3d-662a-112a4a4f8eec, Id:58ed16b8-1795-b76f-f464-c8ec2137ec49 
+2026-05-21 07:13:53.6670 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/login - 200 - application/json;+charset=utf-8 178.7913ms 
+2026-05-21 07:13:54.0100 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:54.0100 | Info | CORS policy execution successful. 
+2026-05-21 07:13:54.0100 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.2367ms 
+2026-05-21 07:13:54.0165 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:54.0165 | Info | CORS policy execution successful. 
+2026-05-21 07:13:54.0165 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.1314ms 
+2026-05-21 07:13:54.0325 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 07:13:54.0325 | Info | CORS policy execution successful. 
+2026-05-21 07:13:54.0325 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.1405ms 
+2026-05-21 07:13:54.0387 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 07:13:54.0387 | Info | CORS policy execution successful. 
+2026-05-21 07:13:54.0387 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.1064ms 
+2026-05-21 07:13:54.6565 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:54.6565 | Info | CORS policy execution successful. 
+2026-05-21 07:13:54.6588 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 07:13:54.6648 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-21 07:13:54.6650 | Info | Setting HTTP status code 404. 
+2026-05-21 07:13:54.6650 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-21 07:13:54.6650 | Info | CORS policy execution successful. 
+2026-05-21 07:13:54.6650 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 07:13:54.6650 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-21 07:13:54.6666 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 07:13:54.6669 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-21 07:13:54.6669 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-21 07:13:54.6669 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 404 - application/json;+charset=utf-8 10.8802ms 
+2026-05-21 07:13:54.6669 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 2.6410ms 
+2026-05-21 07:13:54.6852 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-21 07:13:54.6852 | Info | CORS policy execution successful. 
+2026-05-21 07:13:54.6852 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 07:13:54.6866 | Info | Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-21 07:13:54.6866 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-21 07:13:54.6871 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 1.9742ms 
+2026-05-21 07:13:54.9755 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:54.9755 | Info | CORS policy execution successful. 
+2026-05-21 07:13:54.9755 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 204 - - 0.2908ms 
+2026-05-21 07:13:55.2958 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:55.2960 | Info | CORS policy execution successful. 
+2026-05-21 07:13:55.2960 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 07:13:55.2984 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-21 07:13:55.2984 | Info | Setting HTTP status code 404. 
+2026-05-21 07:13:55.2984 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-21 07:13:55.2984 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-21 07:13:55.2992 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4949-19df-76ff-af11-d821b86089b8 - 404 - application/json;+charset=utf-8 3.4657ms 
+2026-05-21 07:13:55.6076 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:55.6076 | Info | CORS policy execution successful. 
+2026-05-21 07:13:55.6083 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 07:13:55.6105 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-21 07:13:55.6105 | Info | Setting HTTP status code 200. 
+2026-05-21 07:13:55.6110 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-21 07:13:55.6110 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 07:13:55.6110 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 200 - application/json;+charset=utf-8 3.8825ms 
+2026-05-21 07:13:56.2451 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - - - 
+2026-05-21 07:13:56.2451 | Info | CORS policy execution successful. 
+2026-05-21 07:13:56.2451 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 07:13:56.2496 | Info | Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-21 07:13:56.2500 | Info | Setting HTTP status code 200. 
+2026-05-21 07:13:56.2500 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-21 07:13:56.2500 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-21 07:13:56.2511 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4949-19df-76ff-af11-d821b86089b8 - 200 - application/json;+charset=utf-8 6.0105ms 
+2026-05-21 07:16:57.7587 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/swagger/v1/swagger.json - - - 
+2026-05-21 07:16:57.8075 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 48.8134ms 
+2026-05-21 07:18:12.7828 | Info | Application is shutting down... 

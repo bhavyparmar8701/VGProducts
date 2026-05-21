@@ -44,3 +44,4 @@ C:/Users/P21-0205/source/repos/VGProducts.API/VGPrograms.Business/obj/Debug/net9
 /var/www/html/vgp/VGProducts.API/VGPrograms.Business/obj/Debug/net9.0/VGProducts.Business.pdb
 /var/www/html/vgp/VGProducts.API/VGPrograms.Business/obj/Debug/net9.0/VGProducts.Business.genruntimeconfig.cache
 /var/www/html/vgp/VGProducts.API/VGPrograms.Business/obj/Debug/net9.0/ref/VGProducts.Business.dll
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/obj/Debug/net9.0/VGProducts.Business.sourcelink.json

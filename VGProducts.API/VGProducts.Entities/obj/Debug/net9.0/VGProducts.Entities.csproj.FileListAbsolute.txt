@@ -26,3 +26,4 @@ C:/Users/P21-0205/source/repos/VGProducts.API/VGProducts.Entities/obj/Debug/net9
 /var/www/html/vgp/VGProducts.API/VGProducts.Entities/obj/Debug/net9.0/VGProducts.Entities.pdb
 /var/www/html/vgp/VGProducts.API/VGProducts.Entities/obj/Debug/net9.0/VGProducts.Entities.genruntimeconfig.cache
 /var/www/html/vgp/VGProducts.API/VGProducts.Entities/obj/Debug/net9.0/ref/VGProducts.Entities.dll
+/var/www/html/vgp/VGProducts.API/VGProducts.Entities/obj/Debug/net9.0/VGProducts.Entities.sourcelink.json

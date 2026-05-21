@@ -40,3 +40,4 @@ C:/Users/P21-0205/source/repos/VGProducts.API/VGPrograms.Repository/obj/Debug/ne
 /var/www/html/vgp/VGProducts.API/VGPrograms.Repository/obj/Debug/net9.0/VGProducts.Repository.pdb
 /var/www/html/vgp/VGProducts.API/VGPrograms.Repository/obj/Debug/net9.0/VGProducts.Repository.genruntimeconfig.cache
 /var/www/html/vgp/VGProducts.API/VGPrograms.Repository/obj/Debug/net9.0/ref/VGProducts.Repository.dll
+/var/www/html/vgp/VGProducts.API/VGPrograms.Repository/obj/Debug/net9.0/VGProducts.Repository.sourcelink.json

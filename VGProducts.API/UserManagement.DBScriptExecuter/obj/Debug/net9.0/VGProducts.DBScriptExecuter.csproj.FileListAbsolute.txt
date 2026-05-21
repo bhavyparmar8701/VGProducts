@@ -26,3 +26,4 @@ C:/Users/P21-0205/source/repos/VGProducts.API/UserManagement.DBScriptExecuter/ob
 /var/www/html/vgp/VGProducts.API/UserManagement.DBScriptExecuter/obj/Debug/net9.0/VGProducts.DBScriptExecuter.pdb
 /var/www/html/vgp/VGProducts.API/UserManagement.DBScriptExecuter/obj/Debug/net9.0/VGProducts.DBScriptExecuter.genruntimeconfig.cache
 /var/www/html/vgp/VGProducts.API/UserManagement.DBScriptExecuter/obj/Debug/net9.0/ref/VGProducts.DBScriptExecuter.dll
+/var/www/html/vgp/VGProducts.API/UserManagement.DBScriptExecuter/obj/Debug/net9.0/VGProducts.DBScriptExecuter.sourcelink.json

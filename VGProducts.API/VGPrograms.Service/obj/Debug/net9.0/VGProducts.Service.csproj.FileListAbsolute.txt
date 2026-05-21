@@ -48,3 +48,4 @@ C:/Users/P21-0205/source/repos/VGProducts.API/VGPrograms.Service/obj/Debug/net9.
 /var/www/html/vgp/VGProducts.API/VGPrograms.Service/obj/Debug/net9.0/VGProducts.Service.pdb
 /var/www/html/vgp/VGProducts.API/VGPrograms.Service/obj/Debug/net9.0/VGProducts.Service.genruntimeconfig.cache
 /var/www/html/vgp/VGProducts.API/VGPrograms.Service/obj/Debug/net9.0/ref/VGProducts.Service.dll
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/obj/Debug/net9.0/VGProducts.Service.sourcelink.json

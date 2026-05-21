@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VGProducts.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8132dc9d21b920be9febd594cf57cc4d19e5ecdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("VGProducts.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VGProducts.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

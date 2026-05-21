@@ -182,8 +182,7 @@ const Header = () => {
           }
         });
 
-        const result = await resGetUserById.json();
-        const data = result.data || result;
+       const data = resGetUserById.data.data || resGetUserById.data;
 
         setProfileData({
           firstName: data.firstName || "",
@@ -310,7 +309,7 @@ const Header = () => {
 
        if (!token || !userId) return;
 
-      const res = await axios.get( `GetAllCartItem/${userId}`,
+     const res = await axios.get(`/GetAllCartItem/${userId}`,
         {
           headers: { Authorization: `Bearer ${token}` }
         }
@@ -486,5 +485,6 @@ const Header = () => {
     </>
   );
 };
+
 
 export default Header;
