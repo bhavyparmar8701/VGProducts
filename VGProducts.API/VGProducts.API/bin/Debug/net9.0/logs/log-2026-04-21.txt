@@ -1,0 +1,503 @@
+2026-04-21 12:04:13.3284 | Info | Executed DbCommand (59ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:04:13.4375 | Info | Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:04:13.4375 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:04:13.4375 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:04:13.5339 | Info | Executed DbCommand (52ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-21 12:04:13.5339 | Info | Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-21 12:04:13.7630 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-21 12:04:13.8354 | Info | User profile is available. Using 'C:\Users\P21-0205\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-04-21 12:04:14.7188 | Info | Now listening on: https://localhost:7116 
+2026-04-21 12:04:14.7188 | Info | Now listening on: http://localhost:5032 
+2026-04-21 12:04:14.7188 | Info | Now listening on: http://localhost:7124 
+2026-04-21 12:04:14.7688 | Info | Application started. Press Ctrl+C to shut down. 
+2026-04-21 12:04:14.7688 | Info | Hosting environment: Development 
+2026-04-21 12:04:14.7688 | Info | Content root path: C:\Users\P21-0205\source\repos\VGProducts.API\VGProducts.API 
+2026-04-21 12:04:18.2515 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-21 12:04:18.2515 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/index.css - - - 
+2026-04-21 12:04:18.2515 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/swagger-ui.css - - - 
+2026-04-21 12:04:18.2515 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-21 12:04:18.3451 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 114.7335ms 
+2026-04-21 12:04:18.6388 | Info | Sending file. Request path: '/index.css'. Physical path: 'N/A' 
+2026-04-21 12:04:18.6409 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/index.css - 200 202 text/css 418.4026ms 
+2026-04-21 12:04:18.6409 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 432.1382ms 
+2026-04-21 12:04:18.6567 | Info | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2026-04-21 12:04:18.6567 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/swagger-ui.css - 200 154949 text/css 435.2107ms 
+2026-04-21 12:04:18.7920 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-21 12:04:18.9467 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 154.7291ms 
+2026-04-21 12:04:26.2245 | Info | Request starting HTTP/2 POST https://localhost:7116/api/register - application/json 96 
+2026-04-21 12:04:26.3576 | Info | Executing endpoint 'HTTP: POST /api/register => Register' 
+2026-04-21 12:04:26.5387 | Info | Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-04-21 12:04:26.7366 | Info | Executed DbCommand (40ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?', @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTime), @p12='?', @p13='?', @p14='?' (DbType = DateTime), @p15='?', @p16='?', @p17='?' (DbType = Boolean), @p18='?', @p19='?' (DbType = DateTime), @p20='?', @p21='?', @p22='?' (DbType = Boolean), @p23='?' (DbType = DateTime), @p24='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "CreatedAt", "Email", "EmailConfirmed", "FirstName", "IsDeleted", "IsOtpVerified", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "OtpExpiry", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiry", "ResetOtp", "SecurityStamp", "TwoFactorEnabled", "UpdatedAt", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24); 
+2026-04-21 12:04:26.7581 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2 
+2026-04-21 12:04:26.7880 | Info | Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Guid), @__p_1='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."UserId", a."RoleId"
+FROM "AspNetUserRoles" AS a
+WHERE a."UserId" = @__p_0 AND a."RoleId" = @__p_1
+LIMIT 1 
+2026-04-21 12:04:26.7880 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2 
+2026-04-21 12:04:26.8030 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-04-21 12:04:26.8656 | Info | Executed DbCommand (31ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p26='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?', @p27='?', @p4='?' (DbType = DateTime), @p5='?', @p6='?' (DbType = Boolean), @p7='?', @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?', @p11='?' (DbType = Boolean), @p12='?' (DbType = DateTime), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = DateTime), @p21='?', @p22='?', @p23='?' (DbType = Boolean), @p24='?' (DbType = DateTime), @p25='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUserRoles" ("RoleId", "UserId")
+VALUES (@p0, @p1);
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p2, "ConcurrencyStamp" = @p3, "CreatedAt" = @p4, "Email" = @p5, "EmailConfirmed" = @p6, "FirstName" = @p7, "IsDeleted" = @p8, "IsOtpVerified" = @p9, "LastName" = @p10, "LockoutEnabled" = @p11, "LockoutEnd" = @p12, "NormalizedEmail" = @p13, "NormalizedUserName" = @p14, "OtpExpiry" = @p15, "PasswordHash" = @p16, "PhoneNumber" = @p17, "PhoneNumberConfirmed" = @p18, "RefreshToken" = @p19, "RefreshTokenExpiry" = @p20, "ResetOtp" = @p21, "SecurityStamp" = @p22, "TwoFactorEnabled" = @p23, "UpdatedAt" = @p24, "UserName" = @p25
+WHERE "Id" = @p26 AND "ConcurrencyStamp" = @p27; 
+2026-04-21 12:04:26.8863 | Info | Setting HTTP status code 200. 
+2026-04-21 12:04:26.8863 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:04:26.8863 | Info | Executed endpoint 'HTTP: POST /api/register => Register' 
+2026-04-21 12:04:41.5716 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=315,Timers=5), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_ecc629f5-9287-f813-8627-286725b89d3b;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Idle;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 1;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=8,QueuedItems=0,CompletedItems=315,Timers=5);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_ecc629f5-9287-f813-8627-286725b89d3b;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:04:41.5796 | Info | Request finished HTTP/2 POST https://localhost:7116/api/register - 200 - application/json;+charset=utf-8 15361.1208ms 
+2026-04-21 12:05:01.1988 | Info | Request starting HTTP/2 POST https://localhost:7116/api/login - application/json 47 
+2026-04-21 12:05:01.2197 | Info | Executing endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-04-21 12:05:01.2413 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:05:01.3454 | Info | Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2026-04-21 12:05:01.3454 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:05:01.3454 | Info | Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-21 12:05:01.4132 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-04-21 12:05:01.4132 | Info | Executed DbCommand (2ms) [Parameters=[@p24='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?', @p25='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?', @p18='?' (DbType = DateTime), @p19='?', @p20='?', @p21='?' (DbType = Boolean), @p22='?' (DbType = DateTime), @p23='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "IsDeleted" = @p6, "IsOtpVerified" = @p7, "LastName" = @p8, "LockoutEnabled" = @p9, "LockoutEnd" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "OtpExpiry" = @p13, "PasswordHash" = @p14, "PhoneNumber" = @p15, "PhoneNumberConfirmed" = @p16, "RefreshToken" = @p17, "RefreshTokenExpiry" = @p18, "ResetOtp" = @p19, "SecurityStamp" = @p20, "TwoFactorEnabled" = @p21, "UpdatedAt" = @p22, "UserName" = @p23
+WHERE "Id" = @p24 AND "ConcurrencyStamp" = @p25; 
+2026-04-21 12:05:06.4361 | Error | Session cache read exception, Key:6eb8273e-5abf-d0dc-192d-24bb3c6bb54c StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 1, qs: 0, aw: False, bw: SpinningDown, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 1, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=2,Free=32765,Min=6,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=467,Timers=4), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2105
+   at StackExchange.Redis.RedisBase.ExecuteSync[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/RedisBase.cs:line 62
+   at StackExchange.Redis.RedisDatabase.HashGet(RedisKey key, RedisValue[] hashFields, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 407
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefresh(String key, Boolean getData)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.Get(String key)
+   at Microsoft.AspNetCore.Session.DistributedSession.Load() Redis-Message: HMGET VGProducts_6eb8273e-5abf-d0dc-192d-24bb3c6bb54c;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 1;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: SpinningDown;Redis-Read-State: NotStarted;Redis-Write-State: Idle;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 1;Redis-Async-Ops: 1;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=2,Free=32765,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=8,QueuedItems=0,CompletedItems=467,Timers=4);Redis-Busy-Workers: 2;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_6eb8273e-5abf-d0dc-192d-24bb3c6bb54c;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:05:06.4871 | Info | Setting HTTP status code 200. 
+2026-04-21 12:05:06.4871 | Info | Writing value of type '<>f__AnonymousType2`1' as Json. 
+2026-04-21 12:05:06.4871 | Info | Executed endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-04-21 12:05:11.5621 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 1, async-ops: 2, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=2,Free=32765,Min=6,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=499,Timers=5), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_6eb8273e-5abf-d0dc-192d-24bb3c6bb54c;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 1;Redis-Async-Ops: 2;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=2,Free=32765,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=8,QueuedItems=0,CompletedItems=499,Timers=5);Redis-Busy-Workers: 2;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_6eb8273e-5abf-d0dc-192d-24bb3c6bb54c;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:05:11.5621 | Info | Request finished HTTP/2 POST https://localhost:7116/api/login - 200 - application/json;+charset=utf-8 10368.1950ms 
+2026-04-21 12:05:40.1795 | Info | Request starting HTTP/2 GET https://localhost:7116/api/GetAllUser - - - 
+2026-04-21 12:05:40.2705 | Info | Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=Permission and Claim.Value is one of the following values: (GetAllUser) 
+2026-04-21 12:05:40.2705 | Info | AuthenticationScheme: Bearer was forbidden. 
+2026-04-21 12:05:40.2705 | Info | Request finished HTTP/2 GET https://localhost:7116/api/GetAllUser - 403 0 - 93.6846ms 
+2026-04-21 12:06:05.1931 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 23 
+2026-04-21 12:06:05.1931 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:06:05.2128 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:06:30.2358 | Info | Executed DbCommand (47ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:06:30.3306 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:06:30.3306 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:06:30.3306 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-21 12:06:30.3707 | Info | Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-21 12:06:30.3707 | Info | Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-21 12:06:30.4452 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-21 12:06:30.4877 | Info | User profile is available. Using 'C:\Users\P21-0205\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-04-21 12:06:30.9455 | Info | Now listening on: https://localhost:7116 
+2026-04-21 12:06:30.9455 | Info | Now listening on: http://localhost:5032 
+2026-04-21 12:06:30.9455 | Info | Now listening on: http://localhost:7124 
+2026-04-21 12:06:30.9847 | Info | Application started. Press Ctrl+C to shut down. 
+2026-04-21 12:06:30.9847 | Info | Hosting environment: Development 
+2026-04-21 12:06:30.9847 | Info | Content root path: C:\Users\P21-0205\source\repos\VGProducts.API\VGProducts.API 
+2026-04-21 12:06:32.1035 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-21 12:06:32.1035 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-21 12:06:32.1305 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 36.3720ms 
+2026-04-21 12:06:32.1487 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 57.1792ms 
+2026-04-21 12:06:32.2250 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-21 12:06:32.4907 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 265.7283ms 
+2026-04-21 12:06:51.2815 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 40 
+2026-04-21 12:06:51.3854 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:06:51.4667 | Info | Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:06:51.4766 | Info | Setting HTTP status code 200. 
+2026-04-21 12:06:51.4766 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:06:51.4766 | Info | Executed endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:07:05.8804 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=275,Timers=7), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_cc8ffb4a-e772-43ee-af02-d2b836cad2ed;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Idle;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 1;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=8,QueuedItems=0,CompletedItems=275,Timers=7);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_cc8ffb4a-e772-43ee-af02-d2b836cad2ed;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:07:05.8920 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ForgotPassword - 200 - application/json;+charset=utf-8 14617.1405ms 
+2026-04-21 12:08:34.2585 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 40 
+2026-04-21 12:08:34.2885 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:08:34.3007 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:08:34.3007 | Info | Setting HTTP status code 200. 
+2026-04-21 12:08:34.3007 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:08:34.3007 | Info | Executed endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:08:39.8513 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=758,Timers=7), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_610e69a2-9e07-d734-fa80-97fcf165d588;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Idle;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 2;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=7,QueuedItems=0,CompletedItems=758,Timers=7);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_610e69a2-9e07-d734-fa80-97fcf165d588;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:08:39.8513 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ForgotPassword - 200 - application/json;+charset=utf-8 5597.3468ms 
+2026-04-21 12:09:38.7467 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 40 
+2026-04-21 12:09:38.7495 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:09:38.7717 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:09:38.7717 | Info | Setting HTTP status code 200. 
+2026-04-21 12:09:38.7717 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:09:38.7717 | Info | Executed endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:09:43.8466 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 3, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=1101,Timers=6), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_402edf03-b010-3524-4205-fc7303b69d1b;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Idle;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 3;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=6,QueuedItems=0,CompletedItems=1101,Timers=6);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_402edf03-b010-3524-4205-fc7303b69d1b;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:09:43.8633 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ForgotPassword - 200 - application/json;+charset=utf-8 5117.5470ms 
+2026-04-21 12:10:33.1251 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 40 
+2026-04-21 12:10:33.1251 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:10:33.1251 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:10:33.1251 | Info | Setting HTTP status code 200. 
+2026-04-21 12:10:33.1251 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:10:33.1251 | Info | Executed endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:10:38.8520 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 4, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=1388,Timers=7), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_a6a18864-01b6-70f2-cfdf-a61d7da82880;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Initializing;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 4;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=6,QueuedItems=0,CompletedItems=1388,Timers=7);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_a6a18864-01b6-70f2-cfdf-a61d7da82880;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:10:38.8609 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ForgotPassword - 200 - application/json;+charset=utf-8 5737.0496ms 
+2026-04-21 12:10:52.6412 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 40 
+2026-04-21 12:10:52.6412 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:10:52.6412 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:10:52.6412 | Info | Setting HTTP status code 200. 
+2026-04-21 12:10:52.6412 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:10:52.6412 | Info | Executed endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:10:57.8622 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 5, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=3,Free=32764,Min=6,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=1497,Timers=5), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_f94308c1-bc0a-b615-d0f3-4dbf41d06dd0;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 5;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=3,Free=32764,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=6,QueuedItems=0,CompletedItems=1497,Timers=5);Redis-Busy-Workers: 3;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_f94308c1-bc0a-b615-d0f3-4dbf41d06dd0;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:10:57.8769 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ForgotPassword - 200 - application/json;+charset=utf-8 5236.6870ms 
+2026-04-21 12:11:45.6688 | Info | Request starting HTTP/2 POST https://localhost:7116/api/register - application/json 115 
+2026-04-21 12:11:45.6688 | Info | Executing endpoint 'HTTP: POST /api/register => Register' 
+2026-04-21 12:11:45.8043 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-04-21 12:11:45.9792 | Info | Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?', @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTime), @p12='?', @p13='?', @p14='?' (DbType = DateTime), @p15='?', @p16='?', @p17='?' (DbType = Boolean), @p18='?', @p19='?' (DbType = DateTime), @p20='?', @p21='?', @p22='?' (DbType = Boolean), @p23='?' (DbType = DateTime), @p24='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "CreatedAt", "Email", "EmailConfirmed", "FirstName", "IsDeleted", "IsOtpVerified", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "OtpExpiry", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiry", "ResetOtp", "SecurityStamp", "TwoFactorEnabled", "UpdatedAt", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24); 
+2026-04-21 12:11:45.9997 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2 
+2026-04-21 12:11:46.0275 | Info | Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Guid), @__p_1='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."UserId", a."RoleId"
+FROM "AspNetUserRoles" AS a
+WHERE a."UserId" = @__p_0 AND a."RoleId" = @__p_1
+LIMIT 1 
+2026-04-21 12:11:46.0319 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2 
+2026-04-21 12:11:46.0465 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-04-21 12:11:46.0839 | Info | Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p26='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?', @p27='?', @p4='?' (DbType = DateTime), @p5='?', @p6='?' (DbType = Boolean), @p7='?', @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?', @p11='?' (DbType = Boolean), @p12='?' (DbType = DateTime), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = DateTime), @p21='?', @p22='?', @p23='?' (DbType = Boolean), @p24='?' (DbType = DateTime), @p25='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUserRoles" ("RoleId", "UserId")
+VALUES (@p0, @p1);
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p2, "ConcurrencyStamp" = @p3, "CreatedAt" = @p4, "Email" = @p5, "EmailConfirmed" = @p6, "FirstName" = @p7, "IsDeleted" = @p8, "IsOtpVerified" = @p9, "LastName" = @p10, "LockoutEnabled" = @p11, "LockoutEnd" = @p12, "NormalizedEmail" = @p13, "NormalizedUserName" = @p14, "OtpExpiry" = @p15, "PasswordHash" = @p16, "PhoneNumber" = @p17, "PhoneNumberConfirmed" = @p18, "RefreshToken" = @p19, "RefreshTokenExpiry" = @p20, "ResetOtp" = @p21, "SecurityStamp" = @p22, "TwoFactorEnabled" = @p23, "UpdatedAt" = @p24, "UserName" = @p25
+WHERE "Id" = @p26 AND "ConcurrencyStamp" = @p27; 
+2026-04-21 12:11:46.0972 | Info | Setting HTTP status code 200. 
+2026-04-21 12:11:46.0972 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:11:46.0972 | Info | Executed endpoint 'HTTP: POST /api/register => Register' 
+2026-04-21 12:11:51.8464 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 6, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=1802,Timers=7), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_84a9436f-4f71-134e-9042-c85932c21352;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Initializing;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 6;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=6,QueuedItems=0,CompletedItems=1802,Timers=7);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_84a9436f-4f71-134e-9042-c85932c21352;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:11:51.8612 | Info | Request finished HTTP/2 POST https://localhost:7116/api/register - 200 - application/json;+charset=utf-8 6193.6800ms 
+2026-04-21 12:11:58.3541 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 40 
+2026-04-21 12:11:58.3541 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:11:58.3541 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:13:30.9997 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - - - 
+2026-04-21 12:13:31.0310 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-21 12:13:31.1695 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - 200 - text/html;charset=utf-8 169.9761ms 
+2026-04-21 12:13:31.2054 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-21 12:13:31.2054 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 0.7356ms 
+2026-04-21 12:13:31.2054 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-21 12:13:31.2283 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 17.0045ms 
+2026-04-21 12:13:31.2807 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-21 12:13:31.3030 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 22.3472ms 
+2026-04-21 12:16:58.9522 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-21 12:16:59.2814 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - - - 
+2026-04-21 12:16:59.2814 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - 200 - text/html;charset=utf-8 6.7819ms 
+2026-04-21 12:16:59.3121 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-21 12:16:59.3121 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-21 12:16:59.3121 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 0.6432ms 
+2026-04-21 12:16:59.3121 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 7.3178ms 
+2026-04-21 12:16:59.3748 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-21 12:16:59.4002 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 25.3513ms 
+2026-04-21 12:17:06.6743 | Info | Setting HTTP status code 200. 
+2026-04-21 12:17:06.6743 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:17:06.6743 | Info | Executed endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:17:12.6714 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 7, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=2,Free=32765,Min=6,Max=32767), POOL: (Threads=8,QueuedItems=1,CompletedItems=2432,Timers=6), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_1d0fc1e6-2f11-996e-5eef-8254bb41730e;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Initializing;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 7;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=2,Free=32765,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=8,QueuedItems=1,CompletedItems=2432,Timers=6);Redis-Busy-Workers: 2;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_1d0fc1e6-2f11-996e-5eef-8254bb41730e;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:17:12.6714 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ForgotPassword - 499 - application/json;+charset=utf-8 314325.4564ms 
+2026-04-21 12:17:45.6097 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 40 
+2026-04-21 12:17:45.6097 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:17:45.6097 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:17:49.6788 | Info | Setting HTTP status code 200. 
+2026-04-21 12:17:49.6788 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:17:49.6788 | Info | Executed endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:17:54.6731 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 8, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=2683,Timers=6), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_4272f0fa-3163-7c68-30f9-9ff33c9a1de0;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Idle;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 8;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=7,QueuedItems=0,CompletedItems=2683,Timers=6);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_4272f0fa-3163-7c68-30f9-9ff33c9a1de0;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:17:54.6731 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ForgotPassword - 200 - application/json;+charset=utf-8 9070.5672ms 
+2026-04-21 12:18:39.8549 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ResetPassword - application/json 335 
+2026-04-21 12:18:39.8683 | Info | Executing endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:18:39.8746 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:18:39.8746 | Info | Setting HTTP status code 400. 
+2026-04-21 12:18:39.8746 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:18:39.8897 | Info | Executed endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:18:45.6762 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 9, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=2,Free=32765,Min=6,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=2967,Timers=5), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_3d16592f-b129-f0b3-0847-c1782b080858;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Idle;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 9;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=2,Free=32765,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=7,QueuedItems=0,CompletedItems=2967,Timers=5);Redis-Busy-Workers: 2;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_3d16592f-b129-f0b3-0847-c1782b080858;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:18:45.6873 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ResetPassword - 400 - application/json;+charset=utf-8 5833.1668ms 
+2026-04-21 12:19:27.2721 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ResetPassword - application/json 335 
+2026-04-21 12:19:27.2721 | Info | Executing endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:19:27.2721 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:19:27.2856 | Info | Setting HTTP status code 400. 
+2026-04-21 12:19:27.2856 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:19:27.2856 | Info | Executed endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:19:32.6645 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 10, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=2,Free=32765,Min=6,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=3215,Timers=6), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_cc0e5554-aeea-7c7b-36ae-ec565aa5608f;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 10;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=2,Free=32765,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=7,QueuedItems=0,CompletedItems=3215,Timers=6);Redis-Busy-Workers: 2;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_cc0e5554-aeea-7c7b-36ae-ec565aa5608f;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:19:32.6797 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ResetPassword - 400 - application/json;+charset=utf-8 5408.5820ms 
+2026-04-21 12:20:13.4540 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ResetPassword - application/json 335 
+2026-04-21 12:20:13.4540 | Info | Executing endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:20:13.4540 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:20:13.4540 | Info | Setting HTTP status code 400. 
+2026-04-21 12:20:13.4540 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:20:13.4540 | Info | Executed endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:20:18.6739 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 11, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=3470,Timers=6), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_ede9d496-f221-e3c5-b1ba-a6a3f366e6fc;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Initializing;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 11;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=7,QueuedItems=0,CompletedItems=3470,Timers=6);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_ede9d496-f221-e3c5-b1ba-a6a3f366e6fc;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:20:18.6894 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ResetPassword - 400 - application/json;+charset=utf-8 5236.2704ms 
+2026-04-21 12:20:43.7783 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ResetPassword - application/json 334 
+2026-04-21 12:20:43.7783 | Info | Executing endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:20:43.7820 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:20:43.7820 | Info | Setting HTTP status code 400. 
+2026-04-21 12:20:43.7820 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:20:43.7820 | Info | Executed endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:20:49.6785 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 12, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=2,Free=32765,Min=6,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=3644,Timers=5), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_0726a0b3-2432-84ce-bf23-28815ed194db;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 12;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=2,Free=32765,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=6,QueuedItems=0,CompletedItems=3644,Timers=5);Redis-Busy-Workers: 2;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_0726a0b3-2432-84ce-bf23-28815ed194db;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:20:49.6940 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ResetPassword - 400 - application/json;+charset=utf-8 5916.8486ms 
+2026-04-21 12:20:52.9696 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ForgotPassword - application/json 40 
+2026-04-21 12:20:52.9696 | Info | Executing endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:20:52.9696 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:20:56.7670 | Info | Setting HTTP status code 200. 
+2026-04-21 12:20:56.7670 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:20:56.7670 | Info | Executed endpoint 'HTTP: POST /api/ForgotPassword => ForgotPasswordAsync' 
+2026-04-21 12:21:02.6685 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 13, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=3739,Timers=7), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_9007ba6b-3fdf-03ad-5a33-cb6757d54fc1;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Initializing;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 13;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=6,QueuedItems=0,CompletedItems=3739,Timers=7);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_9007ba6b-3fdf-03ad-5a33-cb6757d54fc1;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:21:02.6870 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ForgotPassword - 200 - application/json;+charset=utf-8 9719.2501ms 
+2026-04-21 12:21:30.8573 | Info | Request starting HTTP/2 POST https://localhost:7116/api/ResetPassword - application/json 348 
+2026-04-21 12:21:30.8589 | Info | Executing endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:21:30.9008 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-04-21 12:21:30.9720 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-04-21 12:21:30.9720 | Info | Executed DbCommand (4ms) [Parameters=[@p24='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?', @p25='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?', @p18='?' (DbType = DateTime), @p19='?', @p20='?', @p21='?' (DbType = Boolean), @p22='?' (DbType = DateTime), @p23='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "IsDeleted" = @p6, "IsOtpVerified" = @p7, "LastName" = @p8, "LockoutEnabled" = @p9, "LockoutEnd" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "OtpExpiry" = @p13, "PasswordHash" = @p14, "PhoneNumber" = @p15, "PhoneNumberConfirmed" = @p16, "RefreshToken" = @p17, "RefreshTokenExpiry" = @p18, "ResetOtp" = @p19, "SecurityStamp" = @p20, "TwoFactorEnabled" = @p21, "UpdatedAt" = @p22, "UserName" = @p23
+WHERE "Id" = @p24 AND "ConcurrencyStamp" = @p25; 
+2026-04-21 12:21:30.9720 | Info | Setting HTTP status code 400. 
+2026-04-21 12:21:30.9720 | Info | Writing value of type 'String' as Json. 
+2026-04-21 12:21:30.9720 | Info | Executed endpoint 'HTTP: POST /api/ResetPassword => ResetPasswordAsync' 
+2026-04-21 12:21:36.6713 | Error | Error closing the session. StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 14, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: P21-0205(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=6,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=3938,Timers=6), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.RefreshAsync(String key, CancellationToken token)
+   at Microsoft.AspNetCore.Session.DistributedSession.CommitAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context) Redis-Message: HMGET VGProducts_8d056cc6-fd5f-bbec-cc2a-6577390372c4;Redis-Timeout: 5000;Redis-OpsSinceLastHeartbeat: 0;Redis-Queue-Awaiting-Write: 0;Redis-Queue-Awaiting-Response: 0;Redis-Active-Writer: False;Redis-Backlog-Writer: CheckingForTimeout;Redis-Read-State: NotStarted;Redis-Write-State: Idle;Redis-Inbound-Bytes: 0;Redis-Last-Result-Bytes: 0;Redis-Inbound-Buffer-Bytes: 0;Redis-Sync-Ops: 0;Redis-Async-Ops: 14;Redis-Server-Endpoint: localhost:6379;Redis-Server-Connected-Seconds: n/a;Redis-Abort-On-Connect: 0;Redis-Multiplexer-Connects: 1/1/0;Redis-Manager: 10 of 10 available;Redis-Client-Name: P21-0205(SE.Redis-v2.7.27.49176);Redis-ThreadPool-IO-Completion: (Busy=0,Free=1000,Min=1,Max=1000);Redis-ThreadPool-Workers: (Busy=1,Free=32766,Min=6,Max=32767);Redis-ThreadPool-Items: (Threads=6,QueuedItems=0,CompletedItems=3938,Timers=6);Redis-Busy-Workers: 1;Redis-Version: 2.7.27.49176;redis-command: HMGET VGProducts_8d056cc6-fd5f-bbec-cc2a-6577390372c4;request-sent-status: WaitingInBacklog;redis-server: localhost:6379
+2026-04-21 12:21:36.6884 | Info | Request finished HTTP/2 POST https://localhost:7116/api/ResetPassword - 400 - application/json;+charset=utf-8 5833.2729ms 

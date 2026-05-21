@@ -1,0 +1,28 @@
+{
+  "component": {
+    "default": {
+      "path": "src/component",
+      "files": {
+        "js": {
+          "template": "function",
+          "extension": "js"
+        },
+        "css": {
+          "extension": "css"
+        },
+        "test": {
+          "extension": "js"
+        }
+      },
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": true
+    }
+  },
+  "usesTypeScript": false,
+  "usesStyledComponents": false,
+  "testLibrary": "Testing Library",
+  "usesCssModule": false,
+  "cssPreprocessor": "css"
+}

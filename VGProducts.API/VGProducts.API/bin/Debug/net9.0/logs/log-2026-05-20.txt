@@ -1,0 +1,51 @@
+2026-05-20 06:30:12.8563 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/ - - - 
+2026-05-20 06:30:12.8645 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/ - 404 0 - 8.2072ms 
+2026-05-20 06:30:12.8645 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/, Response status code: 404 
+2026-05-20 06:31:48.7345 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/ - - - 
+2026-05-20 06:31:48.7493 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/ - 404 0 - 14.8787ms 
+2026-05-20 06:31:48.7493 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/, Response status code: 404 
+2026-05-20 09:49:58.9035 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env - - - 
+2026-05-20 09:49:58.9161 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env - 404 0 - 12.5609ms 
+2026-05-20 09:49:58.9161 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env, Response status code: 404 
+2026-05-20 10:40:05.4054 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env - - - 
+2026-05-20 10:40:05.4072 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env - 404 0 - 1.1564ms 
+2026-05-20 10:40:05.4072 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env, Response status code: 404 
+2026-05-20 14:39:20.1226 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env - - - 
+2026-05-20 14:39:20.1275 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env - 404 0 - 4.8738ms 
+2026-05-20 14:39:20.1279 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env, Response status code: 404 
+2026-05-20 15:00:53.9043 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env - - - 
+2026-05-20 15:00:53.9061 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env - 404 0 - 1.8591ms 
+2026-05-20 15:00:53.9061 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env, Response status code: 404 
+2026-05-20 16:36:58.5885 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env - - - 
+2026-05-20 16:36:58.5913 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env - 404 0 - 2.7295ms 
+2026-05-20 16:36:58.5913 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env, Response status code: 404 
+2026-05-20 16:36:58.6196 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.bash_history - - - 
+2026-05-20 16:36:58.6241 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.bash_history - 404 0 - 4.4421ms 
+2026-05-20 16:36:58.6241 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.bash_history, Response status code: 404 
+2026-05-20 17:04:31.6968 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env - - - 
+2026-05-20 17:04:31.6989 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env - 404 0 - 2.1248ms 
+2026-05-20 17:04:31.6989 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env, Response status code: 404 
+2026-05-20 17:04:31.7015 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.bash_history - - - 
+2026-05-20 17:04:31.7030 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.bash_history - 404 0 - 1.4446ms 
+2026-05-20 17:04:31.7030 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.bash_history, Response status code: 404 
+2026-05-20 19:40:29.1717 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env - - - 
+2026-05-20 19:40:29.1743 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env - 404 0 - 2.5564ms 
+2026-05-20 19:40:29.1743 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env, Response status code: 404 
+2026-05-20 19:40:29.1906 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/config.py - - - 
+2026-05-20 19:40:29.1914 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/config.js - - - 
+2026-05-20 19:40:29.1986 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/config.json - - - 
+2026-05-20 19:40:29.1992 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env.bak - - - 
+2026-05-20 19:40:29.1992 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/config.py - 404 0 - 8.8969ms 
+2026-05-20 19:40:29.1992 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/config.py, Response status code: 404 
+2026-05-20 19:40:29.1992 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env.local - - - 
+2026-05-20 19:40:29.2004 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/config.js - 404 0 - 8.9741ms 
+2026-05-20 19:40:29.2004 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/config.js, Response status code: 404 
+2026-05-20 19:40:29.2004 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/config.json - 404 0 - 2.0026ms 
+2026-05-20 19:40:29.2004 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/config.json, Response status code: 404 
+2026-05-20 19:40:29.2004 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env.bak - 404 0 - 1.5973ms 
+2026-05-20 19:40:29.2004 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env.bak, Response status code: 404 
+2026-05-20 19:40:29.2010 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env.local - 404 0 - 1.1727ms 
+2026-05-20 19:40:29.2010 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env.local, Response status code: 404 
+2026-05-20 21:52:17.6357 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/.env - - - 
+2026-05-20 21:52:17.6368 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/.env - 404 0 - 1.0639ms 
+2026-05-20 21:52:17.6368 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/.env, Response status code: 404 

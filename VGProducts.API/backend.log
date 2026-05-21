@@ -1,0 +1,448 @@
+nohup: ignoring input
+Using launch settings from ./VGProducts.API/Properties/launchSettings.json...
+Building...
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/VGProducts.Service.csproj : warning NU1701: Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project. [/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj]
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/VGProducts.Service.csproj : warning NU1701: Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project. [/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj]
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/VGProducts.Service.csproj : warning NU1701: Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project. [/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj]
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/VGProducts.Service.csproj : warning NU1701: Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project. [/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj]
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/VGProducts.Business.csproj : warning NU1701: Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project. [/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj]
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/VGProducts.Business.csproj : warning NU1701: Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project. [/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj]
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/VGProducts.Business.csproj : warning NU1701: Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project. [/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj]
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/VGProducts.Business.csproj : warning NU1701: Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project. [/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj]
+/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj : warning NU1701: Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj : warning NU1701: Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj : warning NU1701: Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj : warning NU1701: Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj : warning NU1701: Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj : warning NU1701: Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj : warning NU1701: Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGProducts.API/VGProducts.API.csproj : warning NU1701: Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/VGProducts.Service.csproj : warning NU1701: Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/VGProducts.Service.csproj : warning NU1701: Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/VGProducts.Service.csproj : warning NU1701: Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGPrograms.Service/VGProducts.Service.csproj : warning NU1701: Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/VGProducts.Business.csproj : warning NU1701: Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/VGProducts.Business.csproj : warning NU1701: Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/VGProducts.Business.csproj : warning NU1701: Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+/var/www/html/vgp/VGProducts.API/VGPrograms.Business/VGProducts.Business.csproj : warning NU1701: Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.
+2026-05-19 13:21:48.3286 | Info | Executed DbCommand (62ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-05-19 13:21:48.4502 | Info | Executed DbCommand (7ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-05-19 13:21:48.4540 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-05-19 13:21:48.4566 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-05-19 13:21:48.5077 | Info | Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-05-19 13:21:48.5113 | Info | Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-05-19 13:21:48.5664 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-05-19 13:21:48.5951 | Info | User profile is available. Using '/home/ubuntu/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2026-05-19 13:21:48.9547 | Info | Now listening on: http://0.0.0.0:8000 
+2026-05-19 13:21:48.9578 | Info | Application started. Press Ctrl+C to shut down. 
+2026-05-19 13:21:48.9590 | Info | Hosting environment: Development 
+2026-05-19 13:21:48.9590 | Info | Content root path: /var/www/html/vgp/VGProducts.API/VGProducts.API 
+2026-05-19 13:23:50.4163 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:23:50.7141 | Warn | Failed to determine the https port for redirect. 
+2026-05-19 13:23:50.7164 | Info | CORS policy execution successful. 
+2026-05-19 13:23:50.7935 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:23:50.9888 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:23:51.0076 | Info | CORS policy execution successful. 
+2026-05-19 13:23:51.0111 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:23:51.0224 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:23:51.0230 | Info | CORS policy execution successful. 
+2026-05-19 13:23:51.0230 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:23:51.0408 | Info | Executed DbCommand (98ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-19 13:23:51.0536 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:23:51.2064 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:23:51.2077 | Info | CORS policy execution successful. 
+2026-05-19 13:23:51.2101 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:23:51.2313 | Info | Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-19 13:23:51.2351 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:23:51.3179 | Info | Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-19 13:23:51.3183 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:23:51.3202 | Info | Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-19 13:23:51.3202 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:23:51.3406 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 923.5396ms 
+2026-05-19 13:23:51.3432 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 136.8158ms 
+2026-05-19 13:23:51.3432 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 354.6131ms 
+2026-05-19 13:23:51.3432 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 321.1834ms 
+2026-05-19 13:24:59.1523 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/register - - - 
+2026-05-19 13:24:59.1523 | Info | CORS policy execution successful. 
+2026-05-19 13:24:59.1546 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/register - 204 - - 2.2714ms 
+2026-05-19 13:24:59.4627 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/register - application/json 120 
+2026-05-19 13:24:59.4631 | Info | CORS policy execution successful. 
+2026-05-19 13:24:59.4631 | Info | Executing endpoint 'HTTP: POST /api/register => Register' 
+2026-05-19 13:24:59.5132 | Info | Setting HTTP status code 400. 
+2026-05-19 13:24:59.5212 | Info | Writing value of type '<>f__AnonymousType2`1' as Json. 
+2026-05-19 13:24:59.5221 | Info | Executed endpoint 'HTTP: POST /api/register => Register' 
+2026-05-19 13:24:59.5230 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/register - 400 - application/json;+charset=utf-8 60.3104ms 
+2026-05-19 13:25:09.8142 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/register - - - 
+2026-05-19 13:25:09.8142 | Info | CORS policy execution successful. 
+2026-05-19 13:25:09.8142 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/register - 204 - - 0.5822ms 
+2026-05-19 13:25:10.1247 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/register - application/json 124 
+2026-05-19 13:25:10.1247 | Info | CORS policy execution successful. 
+2026-05-19 13:25:10.1247 | Info | Executing endpoint 'HTTP: POST /api/register => Register' 
+2026-05-19 13:25:10.2711 | Info | Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-05-19 13:25:10.5213 | Info | Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?', @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTime), @p12='?', @p13='?', @p14='?' (DbType = DateTime), @p15='?', @p16='?', @p17='?' (DbType = Boolean), @p18='?', @p19='?' (DbType = DateTime), @p20='?', @p21='?', @p22='?' (DbType = Boolean), @p23='?' (DbType = DateTime), @p24='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "CreatedAt", "Email", "EmailConfirmed", "FirstName", "IsDeleted", "IsOtpVerified", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "OtpExpiry", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiry", "ResetOtp", "SecurityStamp", "TwoFactorEnabled", "UpdatedAt", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24); 
+2026-05-19 13:25:10.5485 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2 
+2026-05-19 13:25:10.5785 | Info | Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Guid), @__p_1='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."UserId", a."RoleId"
+FROM "AspNetUserRoles" AS a
+WHERE a."UserId" = @__p_0 AND a."RoleId" = @__p_1
+LIMIT 1 
+2026-05-19 13:25:10.5843 | Info | Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2 
+2026-05-19 13:25:10.6019 | Info | Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-05-19 13:25:10.6460 | Info | Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p26='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?', @p27='?', @p4='?' (DbType = DateTime), @p5='?', @p6='?' (DbType = Boolean), @p7='?', @p8='?' (DbType = Boolean), @p9='?' (DbType = Boolean), @p10='?', @p11='?' (DbType = Boolean), @p12='?' (DbType = DateTime), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = DateTime), @p21='?', @p22='?', @p23='?' (DbType = Boolean), @p24='?' (DbType = DateTime), @p25='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUserRoles" ("RoleId", "UserId")
+VALUES (@p0, @p1);
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p2, "ConcurrencyStamp" = @p3, "CreatedAt" = @p4, "Email" = @p5, "EmailConfirmed" = @p6, "FirstName" = @p7, "IsDeleted" = @p8, "IsOtpVerified" = @p9, "LastName" = @p10, "LockoutEnabled" = @p11, "LockoutEnd" = @p12, "NormalizedEmail" = @p13, "NormalizedUserName" = @p14, "OtpExpiry" = @p15, "PasswordHash" = @p16, "PhoneNumber" = @p17, "PhoneNumberConfirmed" = @p18, "RefreshToken" = @p19, "RefreshTokenExpiry" = @p20, "ResetOtp" = @p21, "SecurityStamp" = @p22, "TwoFactorEnabled" = @p23, "UpdatedAt" = @p24, "UserName" = @p25
+WHERE "Id" = @p26 AND "ConcurrencyStamp" = @p27; 
+2026-05-19 13:25:10.6609 | Info | Setting HTTP status code 200. 
+2026-05-19 13:25:10.6611 | Info | Writing value of type '<>f__AnonymousType2`1' as Json. 
+2026-05-19 13:25:10.6611 | Info | Executed endpoint 'HTTP: POST /api/register => Register' 
+2026-05-19 13:25:10.6631 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/register - 200 - application/json;+charset=utf-8 538.3678ms 
+2026-05-19 13:27:59.2747 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - - - 
+2026-05-19 13:27:59.2750 | Info | CORS policy execution successful. 
+2026-05-19 13:27:59.2750 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/login - 204 - - 0.4914ms 
+2026-05-19 13:27:59.5681 | Info | Request starting HTTP/1.1 POST http://52.200.252.181:8000/api/login - application/json 57 
+2026-05-19 13:27:59.5681 | Info | CORS policy execution successful. 
+2026-05-19 13:27:59.5681 | Info | Executing endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-19 13:27:59.9307 | Info | Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2 
+2026-05-19 13:28:00.0778 | Info | Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2026-05-19 13:28:00.0806 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-05-19 13:28:00.0820 | Info | Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-05-19 13:28:00.1086 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2026-05-19 13:28:00.1126 | Info | Executed DbCommand (2ms) [Parameters=[@p24='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?', @p25='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = Boolean), @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?', @p18='?' (DbType = DateTime), @p19='?', @p20='?', @p21='?' (DbType = Boolean), @p22='?' (DbType = DateTime), @p23='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "IsDeleted" = @p6, "IsOtpVerified" = @p7, "LastName" = @p8, "LockoutEnabled" = @p9, "LockoutEnd" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "OtpExpiry" = @p13, "PasswordHash" = @p14, "PhoneNumber" = @p15, "PhoneNumberConfirmed" = @p16, "RefreshToken" = @p17, "RefreshTokenExpiry" = @p18, "ResetOtp" = @p19, "SecurityStamp" = @p20, "TwoFactorEnabled" = @p21, "UpdatedAt" = @p22, "UserName" = @p23
+WHERE "Id" = @p24 AND "ConcurrencyStamp" = @p25; 
+2026-05-19 13:28:00.1214 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:00.1223 | Info | Writing value of type 'AuthResponseDto' as Json. 
+2026-05-19 13:28:00.1245 | Info | Executed endpoint 'HTTP: POST /api/login => LoginUser' 
+2026-05-19 13:28:00.1331 | Info | Session started; Key:490b00ac-6fcb-fa7d-e994-b05703f60eca, Id:f4b627b5-820a-3e42-12e8-a5284850adf5 
+2026-05-19 13:28:00.1441 | Info | Request finished HTTP/1.1 POST http://52.200.252.181:8000/api/login - 200 - application/json;+charset=utf-8 575.9678ms 
+2026-05-19 13:28:00.5296 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:00.5296 | Info | CORS policy execution successful. 
+2026-05-19 13:28:00.5296 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - 204 - - 0.4963ms 
+2026-05-19 13:28:00.5310 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:00.5310 | Info | CORS policy execution successful. 
+2026-05-19 13:28:00.5310 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - 204 - - 0.3026ms 
+2026-05-19 13:28:00.8217 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:00.8217 | Info | CORS policy execution successful. 
+2026-05-19 13:28:00.8217 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.4470ms 
+2026-05-19 13:28:00.8527 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:00.8527 | Info | CORS policy execution successful. 
+2026-05-19 13:28:00.8527 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.3748ms 
+2026-05-19 13:28:01.1330 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:01.1340 | Info | CORS policy execution successful. 
+2026-05-19 13:28:01.1887 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-19 13:28:01.2014 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:01.2014 | Info | CORS policy execution successful. 
+2026-05-19 13:28:01.2023 | Info | Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-19 13:28:01.2037 | Info | Setting HTTP status code 404. 
+2026-05-19 13:28:01.2053 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-19 13:28:01.2060 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-19 13:28:01.2060 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-19 13:28:01.2084 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - 404 - application/json;+charset=utf-8 75.3657ms 
+2026-05-19 13:28:01.2092 | Info | Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-19 13:28:01.2092 | Info | Setting HTTP status code 404. 
+2026-05-19 13:28:01.2092 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-19 13:28:01.2092 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-19 13:28:01.2101 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - 404 - application/json;+charset=utf-8 8.6210ms 
+2026-05-19 13:28:01.4301 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:01.4301 | Info | CORS policy execution successful. 
+2026-05-19 13:28:01.4312 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:01.4344 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-19 13:28:01.4344 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:01.4353 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 5.1442ms 
+2026-05-19 13:28:01.4932 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:01.4932 | Info | CORS policy execution successful. 
+2026-05-19 13:28:01.4942 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:01.4978 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-19 13:28:01.4981 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:01.4981 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 5.4411ms 
+2026-05-19 13:28:01.5245 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:01.5245 | Info | CORS policy execution successful. 
+2026-05-19 13:28:01.5245 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4069-6819-7ae8-88b2-29172fea9103 - 204 - - 0.2883ms 
+2026-05-19 13:28:01.5414 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:01.5414 | Info | CORS policy execution successful. 
+2026-05-19 13:28:01.5414 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetuserById/019e4069-6819-7ae8-88b2-29172fea9103 - 204 - - 0.2794ms 
+2026-05-19 13:28:02.1665 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:02.1665 | Info | CORS policy execution successful. 
+2026-05-19 13:28:02.1665 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-19 13:28:02.1797 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-19 13:28:02.1806 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:02.1813 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-19 13:28:02.1822 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-19 13:28:02.1822 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4069-6819-7ae8-88b2-29172fea9103 - 200 - application/json;+charset=utf-8 16.3107ms 
+2026-05-19 13:28:02.2096 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:02.2096 | Info | CORS policy execution successful. 
+2026-05-19 13:28:02.2096 | Info | Executing endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-19 13:28:02.2125 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."IsDeleted", a."IsOtpVerified", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."OtpExpiry", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiry", a."ResetOtp", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 1 
+2026-05-19 13:28:02.2129 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:02.2129 | Info | Writing value of type 'GetRegisterUserDto' as Json. 
+2026-05-19 13:28:02.2129 | Info | Executed endpoint 'HTTP: GET /api/GetuserById/{userId} => GetUserById' 
+2026-05-19 13:28:02.2129 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetuserById/019e4069-6819-7ae8-88b2-29172fea9103 - 200 - application/json;+charset=utf-8 4.2100ms 
+2026-05-19 13:28:13.2045 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallproduct - - - 
+2026-05-19 13:28:13.2045 | Info | CORS policy execution successful. 
+2026-05-19 13:28:13.2050 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallproduct - 204 - - 0.5486ms 
+2026-05-19 13:28:13.2050 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:13.2050 | Info | CORS policy execution successful. 
+2026-05-19 13:28:13.2050 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.1789ms 
+2026-05-19 13:28:13.2087 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:13.2087 | Info | CORS policy execution successful. 
+2026-05-19 13:28:13.2087 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.1353ms 
+2026-05-19 13:28:13.2087 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:13.2087 | Info | CORS policy execution successful. 
+2026-05-19 13:28:13.2087 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - 204 - - 0.1629ms 
+2026-05-19 13:28:13.8303 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:13.8303 | Info | CORS policy execution successful. 
+2026-05-19 13:28:13.8313 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:13.8331 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-19 13:28:13.8331 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:13.8339 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 3.6372ms 
+2026-05-19 13:28:13.8508 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:13.8508 | Info | CORS policy execution successful. 
+2026-05-19 13:28:13.8539 | Info | Executing endpoint 'HTTP: GET /api/viewFavourites => GetAllFavouritesAsync' 
+2026-05-19 13:28:13.8742 | Info | Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT f."FavouritesId", f."CreatedAt", f."IsActive", f."IsDeleted", f."ProductId", f."UpdatedAt", f."UserId"
+FROM "Favourites" AS f
+WHERE f."UserId" = @__userId_0 AND f."IsActive" = 1 
+2026-05-19 13:28:13.8753 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:13.8768 | Info | Writing value of type 'FavouritesWithUserDto' as Json. 
+2026-05-19 13:28:13.8771 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:13.8781 | Info | CORS policy execution successful. 
+2026-05-19 13:28:13.8781 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:13.8796 | Info | Executed endpoint 'HTTP: GET /api/viewFavourites => GetAllFavouritesAsync' 
+2026-05-19 13:28:13.8807 | Info | Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-19 13:28:13.8813 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:13.8813 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - 200 - application/json;+charset=utf-8 30.6568ms 
+2026-05-19 13:28:13.8813 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallproduct - - - 
+2026-05-19 13:28:13.8813 | Info | CORS policy execution successful. 
+2026-05-19 13:28:13.8822 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 5.0910ms 
+2026-05-19 13:28:13.8822 | Info | Executing endpoint 'HTTP: GET /api/getallproduct => GetAllProductAsync' 
+2026-05-19 13:28:13.8961 | Info | Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT p."ProductId", p."CreatedAt", p."Description", p."ImageUrl", p."IsActive", p."IsDeleted", p."Price", p."ProductName", p."Reting", p."ReviewCount", p."SKU", p."ShortDescription", p."Stock", p."SubCategoryId", p."UpdatedAt"
+FROM "Product" AS p
+WHERE p."IsActive" = 1 
+2026-05-19 13:28:13.8961 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:13.8995 | Info | Writing value of type 'List`1' as Json. 
+2026-05-19 13:28:13.8995 | Info | Executed endpoint 'HTTP: GET /api/getallproduct => GetAllProductAsync' 
+2026-05-19 13:28:13.9003 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallproduct - 200 - application/json;+charset=utf-8 18.6809ms 
+2026-05-19 13:28:19.7388 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:19.7388 | Info | CORS policy execution successful. 
+2026-05-19 13:28:19.7388 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.4401ms 
+2026-05-19 13:28:19.7454 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:19.7454 | Info | CORS policy execution successful. 
+2026-05-19 13:28:19.7454 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.2001ms 
+2026-05-19 13:28:20.3890 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:20.3890 | Info | CORS policy execution successful. 
+2026-05-19 13:28:20.3890 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:20.3914 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-19 13:28:20.3914 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:20.3922 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 3.2420ms 
+2026-05-19 13:28:20.4094 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:20.4094 | Info | CORS policy execution successful. 
+2026-05-19 13:28:20.4094 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:20.4116 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-19 13:28:20.4119 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:20.4119 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 2.9556ms 
+2026-05-19 13:28:47.7488 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallproduct - - - 
+2026-05-19 13:28:47.7488 | Info | CORS policy execution successful. 
+2026-05-19 13:28:47.7488 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallproduct - 204 - - 0.7667ms 
+2026-05-19 13:28:47.7547 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:47.7547 | Info | CORS policy execution successful. 
+2026-05-19 13:28:47.7547 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - 204 - - 0.1762ms 
+2026-05-19 13:28:48.3959 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:48.3959 | Info | CORS policy execution successful. 
+2026-05-19 13:28:48.3959 | Info | Executing endpoint 'HTTP: GET /api/viewFavourites => GetAllFavouritesAsync' 
+2026-05-19 13:28:48.3998 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT f."FavouritesId", f."CreatedAt", f."IsActive", f."IsDeleted", f."ProductId", f."UpdatedAt", f."UserId"
+FROM "Favourites" AS f
+WHERE f."UserId" = @__userId_0 AND f."IsActive" = 1 
+2026-05-19 13:28:48.4000 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:48.4000 | Info | Writing value of type 'FavouritesWithUserDto' as Json. 
+2026-05-19 13:28:48.4000 | Info | Executed endpoint 'HTTP: GET /api/viewFavourites => GetAllFavouritesAsync' 
+2026-05-19 13:28:48.4000 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - 200 - application/json;+charset=utf-8 4.7802ms 
+2026-05-19 13:28:48.4332 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallproduct - - - 
+2026-05-19 13:28:48.4332 | Info | CORS policy execution successful. 
+2026-05-19 13:28:48.4340 | Info | Executing endpoint 'HTTP: GET /api/getallproduct => GetAllProductAsync' 
+2026-05-19 13:28:48.4361 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT p."ProductId", p."CreatedAt", p."Description", p."ImageUrl", p."IsActive", p."IsDeleted", p."Price", p."ProductName", p."Reting", p."ReviewCount", p."SKU", p."ShortDescription", p."Stock", p."SubCategoryId", p."UpdatedAt"
+FROM "Product" AS p
+WHERE p."IsActive" = 1 
+2026-05-19 13:28:48.4361 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:48.4361 | Info | Writing value of type 'List`1' as Json. 
+2026-05-19 13:28:48.4361 | Info | Executed endpoint 'HTTP: GET /api/getallproduct => GetAllProductAsync' 
+2026-05-19 13:28:48.4371 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallproduct - 200 - application/json;+charset=utf-8 3.8087ms 
+2026-05-19 13:28:51.6113 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:51.6113 | Info | CORS policy execution successful. 
+2026-05-19 13:28:51.6113 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - 204 - - 0.2990ms 
+2026-05-19 13:28:52.2804 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:52.2804 | Info | CORS policy execution successful. 
+2026-05-19 13:28:52.2804 | Info | Executing endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-19 13:28:52.2873 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT c."CartId", c."CreatedAt", c."IsDeleted", c."UpdatedAt", c."UserId"
+FROM "Cart" AS c
+WHERE c."UserId" = @__userId_0
+LIMIT 1 
+2026-05-19 13:28:52.2873 | Info | Setting HTTP status code 404. 
+2026-05-19 13:28:52.2873 | Info | Writing value of type '<>f__AnonymousType1`1' as Json. 
+2026-05-19 13:28:52.2873 | Info | Executed endpoint 'HTTP: GET /api/GetAllCartItem/{userId} => GetAllCartItem' 
+2026-05-19 13:28:52.2893 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/GetAllCartItem/019e4069-6819-7ae8-88b2-29172fea9103 - 404 - application/json;+charset=utf-8 8.8856ms 
+2026-05-19 13:28:52.9629 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:52.9629 | Info | CORS policy execution successful. 
+2026-05-19 13:28:52.9629 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallcategory - 204 - - 0.2661ms 
+2026-05-19 13:28:52.9657 | Info | Request starting HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:52.9657 | Info | CORS policy execution successful. 
+2026-05-19 13:28:52.9657 | Info | Request finished HTTP/1.1 OPTIONS http://52.200.252.181:8000/api/getallsubcategory - 204 - - 0.4347ms 
+2026-05-19 13:28:53.3008 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - - - 
+2026-05-19 13:28:53.3008 | Info | CORS policy execution successful. 
+2026-05-19 13:28:53.3008 | Info | Executing endpoint 'HTTP: GET /api/viewFavourites => GetAllFavouritesAsync' 
+2026-05-19 13:28:53.3054 | Info | Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT f."FavouritesId", f."CreatedAt", f."IsActive", f."IsDeleted", f."ProductId", f."UpdatedAt", f."UserId"
+FROM "Favourites" AS f
+WHERE f."UserId" = @__userId_0 AND f."IsActive" = 1 
+2026-05-19 13:28:53.3054 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:53.3054 | Info | Writing value of type 'FavouritesWithUserDto' as Json. 
+2026-05-19 13:28:53.3054 | Info | Executed endpoint 'HTTP: GET /api/viewFavourites => GetAllFavouritesAsync' 
+2026-05-19 13:28:53.3062 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/viewFavourites?userId=019e4069-6819-7ae8-88b2-29172fea9103 - 200 - application/json;+charset=utf-8 5.4400ms 
+2026-05-19 13:28:53.3098 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallproduct - - - 
+2026-05-19 13:28:53.3098 | Info | CORS policy execution successful. 
+2026-05-19 13:28:53.3098 | Info | Executing endpoint 'HTTP: GET /api/getallproduct => GetAllProductAsync' 
+2026-05-19 13:28:53.3132 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT p."ProductId", p."CreatedAt", p."Description", p."ImageUrl", p."IsActive", p."IsDeleted", p."Price", p."ProductName", p."Reting", p."ReviewCount", p."SKU", p."ShortDescription", p."Stock", p."SubCategoryId", p."UpdatedAt"
+FROM "Product" AS p
+WHERE p."IsActive" = 1 
+2026-05-19 13:28:53.3132 | Info | Setting HTTP status code 200. 
+2026-05-19 13:28:53.3132 | Info | Writing value of type 'List`1' as Json. 
+2026-05-19 13:28:53.3132 | Info | Executed endpoint 'HTTP: GET /api/getallproduct => GetAllProductAsync' 
+2026-05-19 13:28:53.3132 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallproduct - 200 - application/json;+charset=utf-8 4.0712ms 
+2026-05-19 13:28:53.5821 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:53.5821 | Info | CORS policy execution successful. 
+2026-05-19 13:28:53.5831 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:53.5844 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-19 13:28:53.5844 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:53.5851 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 3.0116ms 
+2026-05-19 13:28:53.6344 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:53.6344 | Info | CORS policy execution successful. 
+2026-05-19 13:28:53.6344 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:53.6364 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-19 13:28:53.6364 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:53.6371 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 2.7524ms 
+2026-05-19 13:28:54.0569 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - - - 
+2026-05-19 13:28:54.0569 | Info | CORS policy execution successful. 
+2026-05-19 13:28:54.0581 | Info | Executing endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:54.0594 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."SubCategoryId", s."CategoryId", s."CreatedAt", s."Description", s."Image", s."IsActive", s."IsDeleted", s."SubCategoryName", s."UpdatedAt"
+FROM "SubCategory" AS s 
+2026-05-19 13:28:54.0594 | Info | Executed endpoint 'HTTP: GET /api/getallsubcategory => GetAllSubCategoryAsync' 
+2026-05-19 13:28:54.0604 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallsubcategory - 200 - application/json;+charset=utf-8 3.5443ms 
+2026-05-19 13:28:54.0653 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - - - 
+2026-05-19 13:28:54.0653 | Info | CORS policy execution successful. 
+2026-05-19 13:28:54.0653 | Info | Executing endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:54.0669 | Info | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT c."CategoryId", c."CategoryName", c."CreatedAt", c."Description", c."ImageUrl", c."IsActive", c."IsDeleted", c."UpdatedAt"
+FROM "Category" AS c 
+2026-05-19 13:28:54.0669 | Info | Executed endpoint 'HTTP: GET /api/getallcategory => GetAllCategoryAsync' 
+2026-05-19 13:28:54.0669 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/api/getallcategory - 200 - application/json;+charset=utf-8 2.3461ms 
+2026-05-19 13:35:01.9571 | Info | Request starting HTTP/1.1 GET http://52.200.252.181:8000/vgp/VGProducts.API/VGProducts.API/wwwroot/Images/SubCategory/e1fdf70f-9645-486d-963e-a171a3567471.jpg - - - 
+2026-05-19 13:35:01.9851 | Info | Request finished HTTP/1.1 GET http://52.200.252.181:8000/vgp/VGProducts.API/VGProducts.API/wwwroot/Images/SubCategory/e1fdf70f-9645-486d-963e-a171a3567471.jpg - 404 0 - 28.0359ms 
+2026-05-19 13:35:01.9894 | Info | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://52.200.252.181:8000/vgp/VGProducts.API/VGProducts.API/wwwroot/Images/SubCategory/e1fdf70f-9645-486d-963e-a171a3567471.jpg, Response status code: 404 
+2026-05-19 13:36:56.3905 | Info | Request starting HTTP/1.1 HEAD http://localhost:8000/Images/Product/d4d3f229-c301-4a6e-bd0c-447dc496cf16.jpg - - - 
+2026-05-19 13:36:56.4016 | Info | Request finished HTTP/1.1 HEAD http://localhost:8000/Images/Product/d4d3f229-c301-4a6e-bd0c-447dc496cf16.jpg - 200 10409 image/jpeg 11.1717ms 
+2026-05-19 13:40:29.1864 | Info | Application is shutting down... 

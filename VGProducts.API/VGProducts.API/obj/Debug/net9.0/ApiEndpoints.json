@@ -1,0 +1,1552 @@
+[
+  {
+    "ContainingType": "VGProducts.API.Extentions.AddressExtentions",
+    "Method": "AddAddressAsync",
+    "RelativePath": "api/addaddress",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAddressDto",
+        "Type": "VGProducts.Entities.DTOs.AddAddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Address"
+    ],
+    "EndpointName": "addaddress"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CartItemExtentios",
+    "Method": "AddByIdCartItemAsync",
+    "RelativePath": "api/AddByIdCartItem/{id}/{userId}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CartItem"
+    ],
+    "EndpointName": "AddByIdCartItem"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CartItemExtentios",
+    "Method": "AddToCart",
+    "RelativePath": "api/AddCartItem",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addCartItemDto",
+        "Type": "VGProducts.Entities.DTOs.AddCartItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CartItem"
+    ],
+    "EndpointName": "AddCartItem"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CategoeyExtention",
+    "Method": "AddCategoryAsync",
+    "RelativePath": "api/addcategory",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addCategoryDto",
+        "Type": "VGProducts.Entities.DTOs.AddCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Category"
+    ],
+    "EndpointName": "addcategory"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CityExtentions",
+    "Method": "AddCityAsync",
+    "RelativePath": "api/addcity",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addCityDto",
+        "Type": "VGProducts.Entities.DTOs.AddCityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "City"
+    ],
+    "EndpointName": "addcity"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CountryExtension",
+    "Method": "AddCountryAsync",
+    "RelativePath": "api/addcountry",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addCountryDto",
+        "Type": "VGProducts.Entities.DTOs.AddCountryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Country"
+    ],
+    "EndpointName": "addcountry"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.FavouritesExtention",
+    "Method": "AddFavouritesAsync",
+    "RelativePath": "api/addFavourites",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addFavouritesDto",
+        "Type": "VGProducts.Entities.DTOs.AddFavouritesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Favourites"
+    ],
+    "EndpointName": "addFavourites"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.ReviewExtentions",
+    "Method": "AddOrUpdateReviewAsync",
+    "RelativePath": "api/addorupdatereview",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addReviewDto",
+        "Type": "VGProducts.Entities.DTOs.AddReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Review"
+    ],
+    "EndpointName": "addorupdatereview"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.StateExtentions",
+    "Method": "AddStateAsync",
+    "RelativePath": "api/addstate",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addStateDto",
+        "Type": "VGProducts.Entities.DTOs.AddStateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "State"
+    ],
+    "EndpointName": "addstate"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "ChangePasswordAsync",
+    "RelativePath": "api/ChangePassword/{userId}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "changePasswordDto",
+        "Type": "VGProducts.Entities.DTOs.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "ChangePassword"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CategoryExtentionsDapper",
+    "Method": "CreateAsync",
+    "RelativePath": "api/CreateCategoryDapper",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VGProducts.Entities.DTOs.AddCategoryDapperDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CategoryDapper"
+    ],
+    "EndpointName": "CreateCategoryDapper"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AddressExtentions",
+    "Method": "DeleteAddressAsync",
+    "RelativePath": "api/deleteAddress/{addressId}/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Address"
+    ],
+    "EndpointName": "deleteAddress"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CartItemExtentios",
+    "Method": "DeleteAllCartItemAsync",
+    "RelativePath": "api/DeleteAllCartItem/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CartItem"
+    ],
+    "EndpointName": "DeleteAllCartItem"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CartItemExtentios",
+    "Method": "DeleteByIdCartItemAsync",
+    "RelativePath": "api/DeleteCartItem/{Id}/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CartItem"
+    ],
+    "EndpointName": "DeleteCartItem"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CategoeyExtention",
+    "Method": "DeleteCategoryAsync",
+    "RelativePath": "api/deleteCategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Category"
+    ],
+    "EndpointName": "deleteCategory"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CategoryExtentionsDapper",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/DeleteCategoryDapper/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CategoryDapper"
+    ],
+    "EndpointName": "DeleteCategoryDapper"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CityExtentions",
+    "Method": "DeleteCityAsync",
+    "RelativePath": "api/deleteCity/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "City"
+    ],
+    "EndpointName": "deleteCity"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CountryExtension",
+    "Method": "DeleteCountryAsync",
+    "RelativePath": "api/deleteCountry/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Country"
+    ],
+    "EndpointName": "deleteCountry"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.FavouritesExtention",
+    "Method": "DeleteFavouritesAsync",
+    "RelativePath": "api/deleteFavourites/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Favourites"
+    ],
+    "EndpointName": "deleteFavourites"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.ProductExtension",
+    "Method": "DeleteProductAsync",
+    "RelativePath": "api/deleteproduct/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ],
+    "EndpointName": "deleteproduct"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.StateExtentions",
+    "Method": "DeleteStateAsync",
+    "RelativePath": "api/deleteState/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "State"
+    ],
+    "EndpointName": "deleteState"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.SubCategoryExtension",
+    "Method": "DeleteSubCategoryAsync",
+    "RelativePath": "api/deletesubcategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SubCategory"
+    ],
+    "EndpointName": "deletesubcategory"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "ForgotPasswordAsync",
+    "RelativePath": "api/ForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgetPasswordDto",
+        "Type": "VGProducts.Entities.DTOs.ForgetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "ForgotPassword"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AddressExtentions",
+    "Method": "GetAllAddressAsync",
+    "RelativePath": "api/getAddress",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Address"
+    ],
+    "EndpointName": "getAddress"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AddressExtentions",
+    "Method": "GetAddressById",
+    "RelativePath": "api/getAddressById/{addressId}/{userId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Address"
+    ],
+    "EndpointName": "getAddressById"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CartItemExtentios",
+    "Method": "GetAllCartItem",
+    "RelativePath": "api/GetAllCartItem/{userId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CartItem"
+    ],
+    "EndpointName": "GetAllCartItem"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CategoeyExtention",
+    "Method": "GetAllCategoryAsync",
+    "RelativePath": "api/getallcategory",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VGProducts.Entities.DTOs.CategoryDto, VGProducts.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Category"
+    ],
+    "EndpointName": "getallcategory"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CategoryExtentionsDapper",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/GetAllCategoryDapper",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isActive",
+        "Type": "System.Nullable\u00601[[VGProducts.Entities.Enums.IsActive, VGProducts.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CategoryDapper"
+    ],
+    "EndpointName": "GetAllCategoriesDapper"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.ProductExtension",
+    "Method": "GetAllProductAsync",
+    "RelativePath": "api/getallproduct",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ],
+    "EndpointName": "getallproduct"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.ReviewExtentions",
+    "Method": "GetAllReviewAsync",
+    "RelativePath": "api/getallproductreview",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Review"
+    ],
+    "EndpointName": "getallproductreview"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.SubCategoryExtension",
+    "Method": "GetAllSubCategoryAsync",
+    "RelativePath": "api/getallsubcategory",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VGProducts.Entities.DTOs.SubCategoryDto, VGProducts.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SubCategory"
+    ],
+    "EndpointName": "getallsubcategory"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "GetAllUser",
+    "RelativePath": "api/GetAllUser",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "GetAllUser"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CityExtentions",
+    "Method": "GetAllCityAsync",
+    "RelativePath": "api/getCity",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VGProducts.Entities.DTOs.CityDto, VGProducts.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "City"
+    ],
+    "EndpointName": "getCity"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CityExtentions",
+    "Method": "GetCityById",
+    "RelativePath": "api/getCityById/{Stateid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Stateid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "City"
+    ],
+    "EndpointName": "getCityById"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CountryExtension",
+    "Method": "GetAllCountryAsync",
+    "RelativePath": "api/getCountry",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VGProducts.Entities.DTOs.CountryDto, VGProducts.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Country"
+    ],
+    "EndpointName": "getCountry"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CountryExtension",
+    "Method": "GetCountryById",
+    "RelativePath": "api/getCountryById/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Country"
+    ],
+    "EndpointName": "getCountryById"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.ProductExtension",
+    "Method": "GetProductByIdAsync",
+    "RelativePath": "api/getproductbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ],
+    "EndpointName": "getproductbyid"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.StateExtentions",
+    "Method": "GetAllStateAsync",
+    "RelativePath": "api/getState",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VGProducts.Entities.DTOs.StateDto, VGProducts.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "State"
+    ],
+    "EndpointName": "getState"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.StateExtentions",
+    "Method": "GetStateById",
+    "RelativePath": "api/getStateById/{Countryid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Countryid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "State"
+    ],
+    "EndpointName": "getStateById"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "GetUserById",
+    "RelativePath": "api/GetuserById/{userId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "GetuserById"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.InvoiceExtentions",
+    "Method": "GetInvoiceAsync",
+    "RelativePath": "api/Invoice/{orderId}/{userId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Invoice"
+    ],
+    "EndpointName": "getInvoice"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "LoginUser",
+    "RelativePath": "api/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "VGProducts.Entities.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "login"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.OrderExtention",
+    "Method": "CreateOrderAsync",
+    "RelativePath": "api/Order/addOrder",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VGProducts.Entities.DTOs.CreateOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order"
+    ],
+    "EndpointName": "addOrder"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.OrderExtention",
+    "Method": "DeleteOrderAsync",
+    "RelativePath": "api/Order/DeleteOrder/{orderId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order"
+    ],
+    "EndpointName": "deleteOrder"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.OrderExtention",
+    "Method": "GetAllOrderAsync",
+    "RelativePath": "api/Order/GetAllOrder",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order"
+    ],
+    "EndpointName": "getAllOrder"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.OrderExtention",
+    "Method": "GetPaymentQr",
+    "RelativePath": "api/Order/GetPaymentQr/PaymentQr",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order"
+    ],
+    "EndpointName": "getPaymentQr"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.OrderExtention",
+    "Method": "SelectPaymentMethod",
+    "RelativePath": "api/Order/SelectPaymentMethod/{orderId}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "method",
+        "Type": "VGProducts.Entities.Enums.PaymentMethod",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order"
+    ],
+    "EndpointName": "selectPaymentMethod"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.ProductExtension",
+    "Method": "AddProductAsync",
+    "RelativePath": "api/product",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addProductDto",
+        "Type": "VGProducts.Entities.DTOs.AddProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ],
+    "EndpointName": "addproduct"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "RefreshToken",
+    "RelativePath": "api/refresh",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenDto",
+        "Type": "VGProducts.Entities.DTOs.RefreshTokenRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "refresh"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "Register",
+    "RelativePath": "api/register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "VGProducts.Entities.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "register"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "ResetPasswordAsync",
+    "RelativePath": "api/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetPasswordDto",
+        "Type": "VGProducts.Entities.DTOs.ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "ResetPassword"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.SubCategoryExtension",
+    "Method": "AddSubCategoryAsync",
+    "RelativePath": "api/subcategory",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addSubCategoryDto",
+        "Type": "VGProducts.Entities.DTOs.AddSubCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SubCategory"
+    ],
+    "EndpointName": "addsubcategory"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AddressExtentions",
+    "Method": "UpdateAddressAsync",
+    "RelativePath": "api/updateAddress/{addressId}/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateAddressDto",
+        "Type": "VGProducts.Entities.DTOs.UpdateAddressDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Address"
+    ],
+    "EndpointName": "updateAddress"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.CategoeyExtention",
+    "Method": "UpdateCategoryAsync",
+    "RelativePath": "api/updateCategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateCategoryDto",
+        "Type": "VGProducts.Entities.DTOs.UpdateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Category"
+    ],
+    "EndpointName": "updatecategory"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.ProductExtension",
+    "Method": "UpdateProductAsync",
+    "RelativePath": "api/updateproduct/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateProductDto",
+        "Type": "VGProducts.Entities.DTOs.UpdateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ],
+    "EndpointName": "updateproduct"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.SubCategoryExtension",
+    "Method": "UpdateSubCategoryAsync",
+    "RelativePath": "api/updatesubcategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateSubCategoryDto",
+        "Type": "VGProducts.Entities.DTOs.UpdateSubCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SubCategory"
+    ],
+    "EndpointName": "updatesubcategory"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.AuthEndPoints",
+    "Method": "UpdateUserAsync",
+    "RelativePath": "api/UpdateUser/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRegisterUserDto",
+        "Type": "VGProducts.Entities.DTOs.UpdateRegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ],
+    "EndpointName": "UpdateUser"
+  },
+  {
+    "ContainingType": "VGProducts.API.Extentions.FavouritesExtention",
+    "Method": "GetAllFavouritesAsync",
+    "RelativePath": "api/viewFavourites",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Favourites"
+    ],
+    "EndpointName": "viewFavourites"
+  }
+]

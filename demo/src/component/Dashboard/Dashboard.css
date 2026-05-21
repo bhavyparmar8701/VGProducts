@@ -1,0 +1,130 @@
+/* ===== Page Container ===== */
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* ===== Category Card ===== */
+.category-card {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Title ===== */
+.category-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+/* ===== Subcategory Grid ===== */
+.subcategory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+/* ===== Subcategory Item ===== */
+.subcategory-item {
+  cursor: pointer;
+  text-align: center;
+}
+
+/* ===== IMAGE FIX (MAIN PART) ===== */
+.subcategory-item img {
+  width: 100%;
+  height: 180px;              /* 🔥 bigger height */
+  object-fit: contain;        /* ✅ show full image */
+  background-color: #f5f5f5;  /* empty area fill */
+  border-radius: 6px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.subcategory-item:hover img {
+  transform: scale(1.05);
+}
+
+/* ===== Text ===== */
+.subcategory-item span {
+  display: block;
+  font-size: 13px;
+  margin-top: 6px;
+  color: #333;
+}
+
+/* ===== Footer Link ===== */
+.see-more {
+  color: #2874f0;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
+
+/* ===== Loading ===== */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* adjust as needed */
+  background: #f9fafb; /* light background like your image */
+}
+
+.ring-loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #e5e7eb; /* light gray circle */
+  border-top: 5px solid #3b82f6; /* blue moving part */
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ===== Responsive ===== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .category-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .category-container {
+    grid-template-columns: 1fr;
+  }
+
+  .subcategory-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .subcategory-item img {
+    height: 150px;
+  }
+}

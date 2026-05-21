@@ -1,0 +1,194 @@
+2026-04-22 18:37:12.4217 | Info | Executed DbCommand (69ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:37:12.5540 | Info | Executed DbCommand (10ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:37:12.5574 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:37:12.5574 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:37:12.6117 | Info | Executed DbCommand (7ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-22 18:37:12.6117 | Info | Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-22 18:37:12.7311 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-22 18:37:12.8575 | Info | User profile is available. Using 'C:\Users\P21-0205\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-04-22 18:37:13.7348 | Info | Now listening on: https://localhost:7116 
+2026-04-22 18:37:13.7348 | Info | Now listening on: http://localhost:5032 
+2026-04-22 18:37:13.7348 | Info | Now listening on: http://localhost:7124 
+2026-04-22 18:37:13.7943 | Info | Application started. Press Ctrl+C to shut down. 
+2026-04-22 18:37:13.7943 | Info | Hosting environment: Development 
+2026-04-22 18:37:13.7943 | Info | Content root path: C:\Users\P21-0205\source\repos\VGProducts.API\VGProducts.API 
+2026-04-22 18:37:19.1378 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/index.js - - - 
+2026-04-22 18:37:19.1378 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/swagger-ui-standalone-preset.js - - - 
+2026-04-22 18:37:19.1378 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/swagger-ui-bundle.js - - - 
+2026-04-22 18:37:19.3888 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/index.js - 200 - application/javascript;charset=utf-8 270.0485ms 
+2026-04-22 18:37:19.3888 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-22 18:37:19.4021 | Info | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2026-04-22 18:37:19.4021 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 5.7237ms 
+2026-04-22 18:37:19.4021 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 290.0912ms 
+2026-04-22 18:37:19.4021 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-22 18:37:19.4891 | Info | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2026-04-22 18:37:19.4891 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/swagger-ui-bundle.js - 200 1485241 text/javascript 375.6925ms 
+2026-04-22 18:37:19.6307 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 220.1430ms 
+2026-04-22 18:37:19.6981 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-22 18:37:19.8398 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 141.8043ms 
+2026-04-22 18:42:40.1913 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-22 18:42:40.5348 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - - - 
+2026-04-22 18:42:40.6811 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - 200 - text/html;charset=utf-8 146.4058ms 
+2026-04-22 18:42:40.6949 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-22 18:42:40.6949 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-22 18:42:40.6949 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 0.7506ms 
+2026-04-22 18:42:40.7350 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 40.0919ms 
+2026-04-22 18:42:40.8384 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-22 18:42:40.8630 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 24.5918ms 
+2026-04-22 18:44:40.9091 | Info | Executed DbCommand (59ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:44:41.0072 | Info | Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:44:41.0109 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:44:41.0109 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:44:41.0552 | Info | Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-22 18:44:41.0582 | Info | Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-22 18:44:41.1443 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-22 18:44:41.1974 | Info | User profile is available. Using 'C:\Users\P21-0205\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-04-22 18:44:41.7028 | Info | Now listening on: https://localhost:7116 
+2026-04-22 18:44:41.7028 | Info | Now listening on: http://localhost:5032 
+2026-04-22 18:44:41.7028 | Info | Now listening on: http://localhost:7124 
+2026-04-22 18:44:41.7374 | Info | Application started. Press Ctrl+C to shut down. 
+2026-04-22 18:44:41.7374 | Info | Hosting environment: Development 
+2026-04-22 18:44:41.7374 | Info | Content root path: C:\Users\P21-0205\source\repos\VGProducts.API\VGProducts.API 
+2026-04-22 18:44:43.1918 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-22 18:44:43.1918 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-22 18:44:43.2254 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 46.5753ms 
+2026-04-22 18:44:43.2504 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 74.1987ms 
+2026-04-22 18:44:43.2867 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-22 18:44:43.5418 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 255.2111ms 
+2026-04-22 18:45:20.9520 | Info | Executed DbCommand (44ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:45:21.0291 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:45:21.0291 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:45:21.0291 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:45:21.0687 | Info | Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-22 18:45:21.0687 | Info | Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-22 18:45:21.1426 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-22 18:45:21.1817 | Info | User profile is available. Using 'C:\Users\P21-0205\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-04-22 18:45:21.6933 | Info | Now listening on: https://localhost:7116 
+2026-04-22 18:45:21.6933 | Info | Now listening on: http://localhost:5032 
+2026-04-22 18:45:21.6933 | Info | Now listening on: http://localhost:7124 
+2026-04-22 18:45:21.7273 | Info | Application started. Press Ctrl+C to shut down. 
+2026-04-22 18:45:21.7286 | Info | Hosting environment: Development 
+2026-04-22 18:45:21.7286 | Info | Content root path: C:\Users\P21-0205\source\repos\VGProducts.API\VGProducts.API 
+2026-04-22 18:45:22.8008 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-22 18:45:22.8008 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-22 18:45:22.8520 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 60.1289ms 
+2026-04-22 18:45:22.8711 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 83.9629ms 
+2026-04-22 18:45:22.9040 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-22 18:45:23.1490 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 245.0501ms 
+2026-04-22 18:46:39.3475 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-22 18:46:39.5173 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/index.html - - - 
+2026-04-22 18:46:39.6569 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/index.html - 200 - text/html;charset=utf-8 139.6028ms 
+2026-04-22 18:46:39.6673 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-22 18:46:39.6673 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-22 18:46:39.6673 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 1.1933ms 
+2026-04-22 18:46:39.7494 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 82.0191ms 
+2026-04-22 18:46:39.7719 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-22 18:46:39.7963 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 24.5003ms 
+2026-04-22 18:46:59.0618 | Info | Executed DbCommand (46ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:46:59.1445 | Info | Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:46:59.1445 | Info | Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:46:59.1445 | Info | Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1 
+2026-04-22 18:46:59.1839 | Info | Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-22 18:46:59.1839 | Info | Executed DbCommand (0ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT a."ClaimType", a."ClaimValue"
+FROM "AspNetRoleClaims" AS a
+WHERE a."RoleId" = @__role_Id_0 
+2026-04-22 18:46:59.2887 | Info | No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts 
+2026-04-22 18:46:59.3304 | Info | User profile is available. Using 'C:\Users\P21-0205\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-04-22 18:46:59.7579 | Info | Now listening on: https://localhost:7116 
+2026-04-22 18:46:59.7579 | Info | Now listening on: http://localhost:5032 
+2026-04-22 18:46:59.7579 | Info | Now listening on: http://localhost:7124 
+2026-04-22 18:46:59.7923 | Info | Application started. Press Ctrl+C to shut down. 
+2026-04-22 18:46:59.7923 | Info | Hosting environment: Development 
+2026-04-22 18:46:59.7923 | Info | Content root path: C:\Users\P21-0205\source\repos\VGProducts.API\VGProducts.API 
+2026-04-22 18:47:01.4906 | Info | Request starting HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-22 18:47:01.4906 | Info | Request starting HTTP/2 GET https://localhost:7116/_vs/browserLink - - - 
+2026-04-22 18:47:01.5874 | Info | Request finished HTTP/2 GET https://localhost:7116/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript;+charset=utf-8 111.9385ms 
+2026-04-22 18:47:01.6014 | Info | Request finished HTTP/2 GET https://localhost:7116/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 133.5812ms 
+2026-04-22 18:47:01.8740 | Info | Request starting HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - - - 
+2026-04-22 18:47:02.1838 | Info | Request finished HTTP/2 GET https://localhost:7116/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 309.8560ms 
