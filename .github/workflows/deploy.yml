@@ -10,12 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run Server Deploy Script
+      - name: Run Server Script
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /var/www/html/vgp
-            bash deploy.sh
+            sudo bash /deploy.sh
